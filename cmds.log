@@ -1,0 +1,462 @@
+    1  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    2  sudo dnf install git-all
+    3  git --version
+    4  cd ~/Desktop
+    5  mkdir worksheet1
+    6  cd worksheet1/
+    7  history > cmds.log
+    8  touch cmds.log
+    9  ls
+   10  git init
+   11  git status
+   12  git add cmds.log
+   13  git status
+   14  git commit -m "first"
+   15   git config --global user.email "duguoman@outlook.com"
+   16  git commit -m "first"
+   17  git config --global user.email "GGGGMMMM"
+   18  git commit -m "first COMMIT"
+   19  git status
+   20  git init
+   21  git commit -m "first COMMIT"
+   22  git config --global user.email "duguoman@outlook.com"
+   23  git config --global user.name"GGGGMMMM"
+   24   git commit -m "first COMMIT"
+   25  git config --global user.email "GUOMAN.DU@SJSU.EDU"
+   26  git commit -m "first COMMIT"
+   27  git config --global user.email "duguoman@outlook.com"
+   28  git config --global user.name"GGGGMMMM"
+   29  git config --list
+   30  git config --global user.name"GGGGMMMM"
+   31  git config --list
+   32  git commit -m "first COMMIT"
+   33  Omit --global
+   34  git config --global user.email "guoman.du@sjsu.edu"
+   35  git config --list
+   36  git commit
+   37  git config --global user.name"guoman"
+   38  git config --list
+   39  git config --global user.name
+   40  git config --list
+   41  git config --global user.name"guoman"
+   42  ssh
+   43  wget www.github.com
+   44  git commit
+   45  $ git config --global user.name "dzou"
+   46  git config --global user.name "dzou"
+   47  git config --global user.email "guoman.du@sjsu.edu"
+   48  git config --global --list
+   49  git commit
+   50  git --version
+   51  git status
+   52  mkdir ws1
+   53  cd ws1/
+   54  git init
+   55  history > cmds.log
+   56  touch cmds.log
+   57  ls
+   58  git status
+   59  git add cmds.log
+   60  git status
+   61  git commit -m"first"
+   62  git remote add origin git@github.com:GGGGMMMM/worksheet1.git
+   63  git branch -M main
+   64  git push -u origin main
+   65  git remote add origin git@github.com:GGGGMMMM/worksheet1.git
+   66  git branch -M main
+   67  git push -u origin main
+   68  git remote add origin git@github.com:GGGGMMMM/worksheet1.git
+   69  git branch -M main
+   70  git push -u origin main
+   71  passwd
+   72  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+   73  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
+   74  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+   75  .1
+   76  grep amazon_reviews_us_Books_v1_02 *verified*
+   77  grep verified *amazon_reviews_us_Books_v1_02*
+   78  grep unverified *amazon_reviews_us_Books_v1_02*
+   79  wc -w amazon_reviews_us_Books_v1_02
+   80  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1
+   81  ;
+   82  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1
+   83  wc -w grep verified *amazon_reviews_us_Books_v1_02*
+   84  ;
+   85  >
+   86  >count
+   87  >count.txt
+   88  history > cmds.log
+   89  mkdir ws2
+   90  cd ws2/
+   91  git init
+   92  touch count.txt
+   93  touch cmds.log
+   94  ls
+   95  git status
+   96  git commit -m "First"
+   97  git add cmds.log
+   98  git add count.txt
+   99  git commit -m "First"
+  100  git branch -M main
+  101  git remote add origin https://github.com/GGGGMMMM/ws2.git
+  102  git push -u origin main
+  103  git branch -M main
+  104  git remote add origin git@github.com:GGGGMMMM/ws2.git
+  105  git push -u origin main
+  106  git remote add origin git@github.com:GGGGMMMM/ws2.git
+  107  git branch -M main
+  108  git push -u origin main
+  109  git remote add origin git@github.com:GGGGMMMM/ws2.git
+  110  git branch -M main
+  111  git push -u origin main
+  112  git remote add origin https://github.com/GGGGMMMM/ws2.git
+  113  git branch -M main
+  114  git push -u origin main
+  115  open count.txt
+  116  cd /directory
+  117  >count.txt
+  118  open count.txt
+  119  cat count.txt
+  120  catgit commit -m "
+  121  ;
+  122  "
+  123  cd -
+  124  cat count.txt
+  125  cat cmds.log
+  126  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  127  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
+  128  grep verified *amazon_reviews_us_Books_v1_02*
+  129  grep unverified *amazon_reviews_us_Books_v1_02*
+  130  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
+  131  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  132  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
+  133  grep verified *amazon_reviews_us_Books_v1_02*
+  134  grep unverified *amazon_reviews_us_Books_v1_02*
+  135  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1
+  136  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1
+  137  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
+  138  cat count.txt
+  139  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
+  140  cat count.txt
+  141  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 >> count.txt
+  142  count count.txt
+  143  cat count.txt
+  144  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
+  145   cat count.txt
+  146  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 >> count.txt
+  147  cat count.txt
+  148  history>cmds.log
+  149  cat cmds.log
+  150  mkdir ws2
+  151  mkdir ws2-1
+  152  cd ws2-1/
+  153  git init
+  154  git status
+  155  git add count.txt
+  156  touch count.txt
+  157  touch cmds.log
+  158  ls
+  159  git status
+  160  git add cmds.log
+  161  git add count.txt
+  162  git commit -m "second"
+  163  git remote add origin https://github.com/GGGGMMMM/ws2.git
+  164  git branch -M main
+  165  git push -u origin main
+  166  git remote add origin https://github.com/GGGGMMMM/worksheet2.git
+  167  git branch -M main
+  168  git push -u origin main
+  169  git fetch origin master
+  170  git merge origin master
+  171  git fetch origin master:tmp
+  172  git rebase tmp
+  173  git push origin HEAD:master
+  174  git fetch origin master:tmp
+  175  git rebase tmp
+  176  git push origin HEAD:master
+  177  git fetch origin master:tmp
+  178  git rebase tmp
+  179  git push origin HEAD:master
+  180  git remote add origin https://github.com/GGGGMMMM/ws2.git
+  181  git branch -M main
+  182  git push -u origin main
+  183  git fetch origin master
+  184  git merge origin master
+  185  git push origin master
+  186  git push -u origin main
+  187  git merge origin main
+  188  git fetch origi main
+  189  git fetch origin main
+  190  git merge origin main
+  191  git push origin main
+  192  git fetch
+  193  git rebase MAIN
+  194  git rebase main
+  195  git push origin main
+  196  git push -f -u origin main
+  197  cd-
+  198  cd -
+  199  cat count.txt
+  200  cat cmds.log
+  201  cat count.txt
+  202  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 >> count.txt
+  203  cat count.txt
+  204  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 >count.txt
+  205  cat count.txt
+  206  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 >> count.txt
+  207  cat count.txt
+  208  git init
+  209  git add count.txt
+  210  git add cmds.log
+  211  git commit -m "third"
+  212  git push -u origin main
+  213  git branch -M main
+  214  git remote add origin https://github.com/GGGGMMMM/ws2.git
+  215  git push -u origin main
+  216  git fetch
+  217  git push -u origin main
+  218  git fetch
+  219  git rebase main
+  220  git push -u origin main
+  221  git push --help
+  222  git push -f -u origin main
+  223  history > cmds.log
+  224  cat cmds.log
+  225  cd ~
+  226  cd
+  227  id
+  228  cat a1.txt
+  229  more a1.txt
+  230  cat a1.txt
+  231  exit
+  232  id
+  233  cat a1.txt
+  234  exit
+  235  cat a1.txt
+  236  script a1.txt
+  237  cat a1.txt
+  238  script a1.txt
+  239  cat a1.txt
+  240  exit
+  241  mkdir A1
+  242  cd A1
+  243  touch a1.txt
+  244  ls
+  245  script a1.txt
+  246  cat a1.txt
+  247  cd~
+  248  cd ~
+  249  script a1.txt
+  250  mkdir A1
+  251  cd A1
+  252  touch a1.txt
+  253  cat a1.txt
+  254   script a1.txt
+  255  cat a1.txt
+  256  id>count.txt
+  257  id
+  258  cat a1.txt
+  259  script a1.txt
+  260  quit
+  261  cat a1.txt
+  262  script a1.txt
+  263  cd
+  264  touch a1.txt
+  265  cat a1.txt
+  266  mkdir A1
+  267  cd A1
+  268  ls
+  269  cat count.txt
+  270  script count.txt
+  271  id
+  272   cat count.txt
+  273  cat a1.txt
+  274  rm a1.txt
+  275  rm count.txt
+  276  ls
+  277  mkdir a1.txt
+  278  ls
+  279  script a1.txt
+  280  rm a1.txt
+  281  rmkdir a1.txt
+  282  id
+  283  cat  a1.txt
+  284  rmvidr a1.txt
+  285  rmdir a1.txt
+  286  touch a1.txt
+  287  ls
+  288  script a1.txt
+  289  id
+  290  gid
+  291  id -g
+  292  cat script a1.txt
+  293  cat a1.txt
+  294  script a1.txt
+  295  cat a1.txt
+  296  gedit a1.txt
+  297  cat a1.txt
+  298  [guoman@sjsu A1]$ exit
+  299  cat a1.txt
+  300  script a1.txt
+  301  id
+  302  id -g
+  303  mkdir temp
+  304  GID
+  305  chmod a-x temp
+  306  chmod 177
+  307  chmod --help
+  308  chmod 177 temp
+  309  cd temp
+  310  ls
+  311  ls -l
+  312  touch test.txt
+  313  cd A1
+  314  cd ~
+  315  cd A1
+  316  mkdir temp2
+  317  mv temp2 temp3
+  318  cp temps2 temp3
+  319  cp temp2 temp3
+  320  cp -R temp2 temp3
+  321  cp temp3 temp4
+  322  cp -R temp3 temp4
+  323  ls
+  324  /usr
+  325  du -sh
+  326  df -h
+  327  ls -l a1.txt 
+  328  ls -l /proc/kcore
+  329  ls -l temp
+  330  head a1.txt 
+  331  tail a1.txt 
+  332  cat a1.txt 
+  333  head /proc/meminfo
+  334  head /proc/meminfo/a1.txt
+  335  cat  /proc/cpuinfo | grep "processor" | wc -l
+  336  cat  /proc/cpuinfo | grep MHz | uniq
+  337  uname -p
+  338  cat  /proc/cpuinfo | grep Architecture
+  339  lscpu | grep Architecture
+  340  cat  /proc/cpuinfo | grep Architecture | uniq
+  341  cat  /proc/cpuinfo
+  342  cat  /proc/cpuinfo | grep architected
+  343  cat  /proc/cpuinfo | grep architected | uniq
+  344  cp /home/test/A1/downloaded_hashtags_extend.csv A1
+  345  ls -l downloaded_hashtags_extend.csv
+  346  ls
+  347  downloaded_hashtags_extend.csv A1
+  348  ls -l A1
+  349  wc -l A1
+  350  grep -i great A1
+  351  grep -i great A1 | wc -w A1
+  352  grep -i GREAT A1
+  353  grep -c great A1
+  354  cat A1|grep great |wc -w
+  355  grep -c GREAT A1
+  356  grep great A1 | wc -w
+  357  grep GREAT A1|wc -w
+  358  grep -i great A1 |wc -w
+  359  file ascii.txt utf8.txt 
+  360  echo aaa >> FILE
+  361  file FILE
+  362  echo öäü >> FILE
+  363   file FILE
+  364  cat ascii.txt 
+  365  iconv -f utf-8 -t ascii
+  366  head -n 1 file.csv
+  367  head -n 1 A1
+  368  who
+  369  cat A1 | grep author|uniq|wc -l
+  370  cat A1 |grep id|uniq|wc -l
+  371  cat A1 |grep hashtags|uniq|wc -l
+  372  cat A1 |grep hashtags|wc -l|uniq
+  373  cat A1 |grep id|wc -l|uniq
+  374  cat A1 | grep author|wc -l|uniq
+  375  git init
+  376  ls
+  377  git status
+  378  cat a1.txt
+  379  head -n 50 a1.txt
+  380  cat A1 |grep author|wc -l|uniq
+  381  cat A1 |grep id |wc -l|uniq
+  382  cat A1 |grep hashtags |wc -l|uniq
+  383  tail -n 15 a1.txt
+  384  ls
+  385  cd A1
+  386  ls
+  387  tail -n 15 a1.txt
+  388  head -n 15 a1.txt
+  389  script a1.txt
+  390  tail -n 15 a1.txt
+  391  head -n 50 a1.txt
+  392  id
+  393  script a1.txt
+  394  id
+  395  id -g
+  396  ls
+  397  git init
+  398  git staus
+  399  git status
+  400  git commit -m "first"
+  401  touch a1.txt
+  402  ls
+  403  tail -n 15 a1.txt
+  404  git commit -m "first"
+  405  head -n 50 a1.txt
+  406  rm a1.txt
+  407  ls
+  408  script a1.txt
+  409  id
+  410  id -g
+  411  ls
+  412  cat A1 |grep author|wc -l|uniq
+  413  cat A1 |grep id |wc -l|uniq
+  414  cat A1 |grep hashtags |wc -l|uniq
+  415  git init
+  416  git status
+  417  git add a1.txt
+  418  git commit -m"first"
+  419  git remote add origin https://github.com/GGGGMMMM/a1.git
+  420  git branch -M main
+  421  git push -u origin main
+  422  git push -f -u origin main
+  423  echo "# a1" >> README.md
+  424  git init
+  425  git add README.md
+  426  git commit -m "first commit"
+  427  git branch -M main
+  428  git remote add origin git@github.com:GGGGMMMM/a1.git
+  429  git push -u origin main
+  430  git remote add origin https://github.com/GGGGMMMM/a1.git
+  431  git branch -M main
+  432  git push -u origin main
+  433  git push -f -u origin main
+  434  git remote add origin git@github.com:GGGGMMMM/a1.git
+  435  git branch -M main
+  436  git push -u origin main
+  437  git remote add origin git@github.com:GGGGMMMM/a1.git
+  438  git branch -M main
+  439  git push -u origin main
+  440  cat a1.txt
+  441  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  442  head -n 1 /amazon_reviews_us_Books_v1_02.tsv.gz
+  443  head -n 1 amazon_reviews_us_Books_v1_02.tsv.gz
+  444  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
+  445  head -n 1 amazon_reviews_us_Books_v1_02.tsv.gz
+  446  head -n 1 amazon_reviews_us_Books_v1_02
+  447  grep verified *amazon_reviews_us_Books_v1_02
+  448  grep verified *amazon_reviews_us_Books_v1_02*
+  449  head -n 1 *amazon_reviews_us_Books_v1_02*
+  450  ls -l costumerID
+  451  grep costumerID *amazon_reviews_us_Books_v1_02*
+  452  grep ID *amazon_reviews_us_Books_v1_02*
+  453  head -1
+  454  unzip amazon_reviews_us_Books_v1_02.tsv.gz.1
+  455  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
+  456  cat amazon_reviews_us_Books_v1_02.tsv.gz.1
+  457  cat amazon_reviews_us_Books_v1_02
+  458  cat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3
+  459  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1
+  460  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3
+  461  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 4|sort|uniq -c|sort|tail -n 3
+  462  history > cmds.log
