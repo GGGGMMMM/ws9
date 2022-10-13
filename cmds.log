@@ -1,1031 +1,1000 @@
-    3  git --version
-    4  cd ~/Desktop
-    5  mkdir worksheet1
-    6  cd worksheet1/
-    7  history > cmds.log
-    8  touch cmds.log
-    9  ls
-   10  git init
-   11  git status
-   12  git add cmds.log
-   13  git status
-   14  git commit -m "first"
-   15   git config --global user.email "duguoman@outlook.com"
-   16  git commit -m "first"
-   17  git config --global user.email "GGGGMMMM"
-   18  git commit -m "first COMMIT"
-   19  git status
-   20  git init
-   21  git commit -m "first COMMIT"
-   22  git config --global user.email "duguoman@outlook.com"
-   23  git config --global user.name"GGGGMMMM"
-   24   git commit -m "first COMMIT"
-   25  git config --global user.email "GUOMAN.DU@SJSU.EDU"
-   26  git commit -m "first COMMIT"
-   27  git config --global user.email "duguoman@outlook.com"
-   28  git config --global user.name"GGGGMMMM"
-   29  git config --list
-   30  git config --global user.name"GGGGMMMM"
-   31  git config --list
-   32  git commit -m "first COMMIT"
-   33  Omit --global
-   34  git config --global user.email "guoman.du@sjsu.edu"
-   35  git config --list
-   36  git commit
-   37  git config --global user.name"guoman"
-   38  git config --list
-   39  git config --global user.name
-   40  git config --list
-   41  git config --global user.name"guoman"
-   42  ssh
-   43  wget www.github.com
-   44  git commit
-   45  $ git config --global user.name "dzou"
-   46  git config --global user.name "dzou"
-   47  git config --global user.email "guoman.du@sjsu.edu"
-   48  git config --global --list
-   49  git commit
-   50  git --version
-   51  git status
-   52  mkdir ws1
-   53  cd ws1/
-   54  git init
-   55  history > cmds.log
-   56  touch cmds.log
+   11  git add README.md
+   12  git commit -m "first commit"
+   13  git branch -M main
+   14  git remote add origin https://github.com/GGGGMMMM/worksheet2.git
+   15  git push -u origin main
+   16  git status
+   17  git reset --soft HEAD~3
+   18  git commit -m "New message for the combined commit"
+   19  git push -u origin main
+   20  git reset --soft HEAD~2
+   21  git commit -m "New message for the combined commit"
+   22  git push -u origin main
+   23  GIT INIT
+   24  git init
+   25  git status
+   26  git rev-list --count <revision>
+   27  git rev-list --all --count
+   28  git reset HEAD~9
+   29  git reset --soft HEAD~9
+   30  git rev-list --count HEAD
+   31  git checkout --orphan main
+   32  git checkout --orphan latest_branch
+   33  git checkout --orphan main
+   34  git checkout --orphan latest_branch
+   35  git add -A
+   36  git commit -am "commit message"
+   37  git branch -D main
+   38  git branch -m main
+   39  git push -f origin main
+   40  rm ww.txt
+   41  rm cmds.log
+   42  ls
+   43  rm count
+   44  rm count.txt
+   45  rm README.md
+   46  rv 
+   47  rm wsthree.txt
+   48  ls
+   49  more a1.txt
+   50  wget downloaded_tweets_extend_nolf.csv
+   51  downloaded_tweets_extend_nolf.csv
+   52  curl downloaded_tweets_extend_nolf.csv
+   53  cd A1
+   54  ls
+   55  rw README.md
+   56  rm README.md
    57  ls
-   58  git status
-   59  git add cmds.log
-   60  git status
-   61  git commit -m"first"
-   62  git remote add origin git@github.com:GGGGMMMM/worksheet1.git
-   63  git branch -M main
-   64  git push -u origin main
-   65  git remote add origin git@github.com:GGGGMMMM/worksheet1.git
-   66  git branch -M main
-   67  git push -u origin main
-   68  git remote add origin git@github.com:GGGGMMMM/worksheet1.git
-   69  git branch -M main
-   70  git push -u origin main
-   71  passwd
-   72  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-   73  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
-   74  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
-   75  .1
-   76  grep amazon_reviews_us_Books_v1_02 *verified*
-   77  grep verified *amazon_reviews_us_Books_v1_02*
-   78  grep unverified *amazon_reviews_us_Books_v1_02*
-   79  wc -w amazon_reviews_us_Books_v1_02
-   80  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1
-   81  ;
-   82  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1
-   83  wc -w grep verified *amazon_reviews_us_Books_v1_02*
-   84  ;
-   85  >
-   86  >count
-   87  >count.txt
-   88  history > cmds.log
-   89  mkdir ws2
-   90  cd ws2/
-   91  git init
-   92  touch count.txt
-   93  touch cmds.log
+   58  open downloaded_tweets_extend_original_nolf.csv
+   59  downloaded_tweets_extend_original_nolf.csv
+   60  cd test/A1
+   61  cd home/test/A1
+   62  db2dsdcfgfill -i downloaded_tweets_extend.csv -o A1
+   63  cp downloaded_tweets_extend.csv /A1
+   64  cp downloaded_tweets_extend.csv /A1/downloaded_tweets_extend.csv
+   65  cp /home/test/A1/*/home/A1/
+   66  cp /home/test/A1/*/home/A1
+   67  cp /home/test/A1/downloaded_tweets_extend.csv */home/A1
+   68  cp /home/test/A1/downloaded_tweets_extend.csv */home/A1/downloaded_tweets_extend.csv
+   69  cp /home/test/A1/downloaded_tweets_extend.csv */A1/
+   70  cd/var/log
+   71  find downloaded_tweets_extend.csv
+   72  find . -name downloaded_tweets_extend.csv
+   73  cd A1
+   74  find . -name downloaded_tweets_extend.csv
+   75  find -01 downloaded_tweets_extend.csv
+   76  cd /home/test/A1
+   77  ls
+   78  ll
+   79  ls
+   80  cs ~
+   81  cd ~
+   82  ls
+   83  cd /home/test/A1
+   84  ls
+   85  head -n 1 download_tweets_extend.csv
+   86  cd ~
+   87  cd A1
+   88  ls
+   89  cd /home/test/A1
+   90  ls
+   91  ls -lh
+   92  lh
+   93  sudo chmod 775 /home/test/A1
    94  ls
-   95  git status
-   96  git commit -m "First"
-   97  git add cmds.log
-   98  git add count.txt
-   99  git commit -m "First"
-  100  git branch -M main
-  101  git remote add origin https://github.com/GGGGMMMM/ws2.git
-  102  git push -u origin main
-  103  git branch -M main
-  104  git remote add origin git@github.com:GGGGMMMM/ws2.git
-  105  git push -u origin main
-  106  git remote add origin git@github.com:GGGGMMMM/ws2.git
-  107  git branch -M main
-  108  git push -u origin main
-  109  git remote add origin git@github.com:GGGGMMMM/ws2.git
-  110  git branch -M main
-  111  git push -u origin main
-  112  git remote add origin https://github.com/GGGGMMMM/ws2.git
-  113  git branch -M main
-  114  git push -u origin main
-  115  open count.txt
-  116  cd /directory
-  117  >count.txt
-  118  open count.txt
-  119  cat count.txt
-  120  catgit commit -m "
-  121  ;
-  122  "
-  123  cd -
-  124  cat count.txt
-  125  cat cmds.log
-  126  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-  127  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
-  128  grep verified *amazon_reviews_us_Books_v1_02*
-  129  grep unverified *amazon_reviews_us_Books_v1_02*
-  130  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
-  131  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-  132  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
-  133  grep verified *amazon_reviews_us_Books_v1_02*
-  134  grep unverified *amazon_reviews_us_Books_v1_02*
-  135  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1
-  136  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1
-  137  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
-  138  cat count.txt
-  139  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
-  140  cat count.txt
-  141  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 >> count.txt
-  142  count count.txt
-  143  cat count.txt
-  144  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 > count.txt
-  145   cat count.txt
-  146  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 >> count.txt
-  147  cat count.txt
-  148  history>cmds.log
-  149  cat cmds.log
-  150  mkdir ws2
-  151  mkdir ws2-1
-  152  cd ws2-1/
-  153  git init
-  154  git status
-  155  git add count.txt
-  156  touch count.txt
-  157  touch cmds.log
-  158  ls
-  159  git status
-  160  git add cmds.log
-  161  git add count.txt
-  162  git commit -m "second"
-  163  git remote add origin https://github.com/GGGGMMMM/ws2.git
-  164  git branch -M main
-  165  git push -u origin main
-  166  git remote add origin https://github.com/GGGGMMMM/worksheet2.git
-  167  git branch -M main
-  168  git push -u origin main
-  169  git fetch origin master
-  170  git merge origin master
-  171  git fetch origin master:tmp
-  172  git rebase tmp
-  173  git push origin HEAD:master
-  174  git fetch origin master:tmp
-  175  git rebase tmp
-  176  git push origin HEAD:master
-  177  git fetch origin master:tmp
-  178  git rebase tmp
-  179  git push origin HEAD:master
-  180  git remote add origin https://github.com/GGGGMMMM/ws2.git
-  181  git branch -M main
-  182  git push -u origin main
-  183  git fetch origin master
-  184  git merge origin master
-  185  git push origin master
-  186  git push -u origin main
-  187  git merge origin main
-  188  git fetch origi main
-  189  git fetch origin main
-  190  git merge origin main
-  191  git push origin main
-  192  git fetch
-  193  git rebase MAIN
-  194  git rebase main
-  195  git push origin main
-  196  git push -f -u origin main
-  197  cd-
-  198  cd -
-  199  cat count.txt
-  200  cat cmds.log
-  201  cat count.txt
-  202  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 >> count.txt
-  203  cat count.txt
-  204  wc -l amazon_reviews_us_Books_v1_02.tsv.gz.1 >count.txt
-  205  cat count.txt
-  206  wc -w amazon_reviews_us_Books_v1_02.tsv.gz.1 >> count.txt
-  207  cat count.txt
-  208  git init
-  209  git add count.txt
-  210  git add cmds.log
-  211  git commit -m "third"
-  212  git push -u origin main
-  213  git branch -M main
-  214  git remote add origin https://github.com/GGGGMMMM/ws2.git
-  215  git push -u origin main
-  216  git fetch
-  217  git push -u origin main
-  218  git fetch
-  219  git rebase main
-  220  git push -u origin main
-  221  git push --help
-  222  git push -f -u origin main
-  223  history > cmds.log
-  224  cat cmds.log
-  225  cd ~
-  226  cd
-  227  id
-  228  cat a1.txt
-  229  more a1.txt
-  230  cat a1.txt
-  231  exit
-  232  id
-  233  cat a1.txt
-  234  exit
-  235  cat a1.txt
-  236  script a1.txt
-  237  cat a1.txt
-  238  script a1.txt
-  239  cat a1.txt
-  240  exit
-  241  mkdir A1
-  242  cd A1
-  243  touch a1.txt
-  244  ls
-  245  script a1.txt
-  246  cat a1.txt
-  247  cd~
-  248  cd ~
-  249  script a1.txt
-  250  mkdir A1
-  251  cd A1
-  252  touch a1.txt
-  253  cat a1.txt
-  254   script a1.txt
-  255  cat a1.txt
-  256  id>count.txt
-  257  id
-  258  cat a1.txt
-  259  script a1.txt
-  260  quit
-  261  cat a1.txt
-  262  script a1.txt
-  263  cd
-  264  touch a1.txt
-  265  cat a1.txt
-  266  mkdir A1
-  267  cd A1
-  268  ls
-  269  cat count.txt
-  270  script count.txt
-  271  id
-  272   cat count.txt
-  273  cat a1.txt
-  274  rm a1.txt
-  275  rm count.txt
-  276  ls
-  277  mkdir a1.txt
-  278  ls
-  279  script a1.txt
-  280  rm a1.txt
-  281  rmkdir a1.txt
-  282  id
-  283  cat  a1.txt
-  284  rmvidr a1.txt
-  285  rmdir a1.txt
-  286  touch a1.txt
-  287  ls
-  288  script a1.txt
-  289  id
-  290  gid
-  291  id -g
-  292  cat script a1.txt
-  293  cat a1.txt
-  294  script a1.txt
-  295  cat a1.txt
-  296  gedit a1.txt
-  297  cat a1.txt
-  298  [guoman@sjsu A1]$ exit
-  299  cat a1.txt
-  300  script a1.txt
-  301  id
-  302  id -g
-  303  mkdir temp
-  304  GID
-  305  chmod a-x temp
-  306  chmod 177
-  307  chmod --help
-  308  chmod 177 temp
-  309  cd temp
-  310  ls
-  311  ls -l
-  312  touch test.txt
-  313  cd A1
-  314  cd ~
-  315  cd A1
-  316  mkdir temp2
-  317  mv temp2 temp3
-  318  cp temps2 temp3
-  319  cp temp2 temp3
-  320  cp -R temp2 temp3
-  321  cp temp3 temp4
-  322  cp -R temp3 temp4
-  323  ls
-  324  /usr
-  325  du -sh
-  326  df -h
-  327  ls -l a1.txt 
-  328  ls -l /proc/kcore
-  329  ls -l temp
-  330  head a1.txt 
-  331  tail a1.txt 
-  332  cat a1.txt 
-  333  head /proc/meminfo
-  334  head /proc/meminfo/a1.txt
-  335  cat  /proc/cpuinfo | grep "processor" | wc -l
-  336  cat  /proc/cpuinfo | grep MHz | uniq
-  337  uname -p
-  338  cat  /proc/cpuinfo | grep Architecture
-  339  lscpu | grep Architecture
-  340  cat  /proc/cpuinfo | grep Architecture | uniq
-  341  cat  /proc/cpuinfo
-  342  cat  /proc/cpuinfo | grep architected
-  343  cat  /proc/cpuinfo | grep architected | uniq
-  344  cp /home/test/A1/downloaded_hashtags_extend.csv A1
-  345  ls -l downloaded_hashtags_extend.csv
-  346  ls
-  347  downloaded_hashtags_extend.csv A1
-  348  ls -l A1
-  349  wc -l A1
-  350  grep -i great A1
-  351  grep -i great A1 | wc -w A1
-  352  grep -i GREAT A1
-  353  grep -c great A1
-  354  cat A1|grep great |wc -w
-  355  grep -c GREAT A1
-  356  grep great A1 | wc -w
-  357  grep GREAT A1|wc -w
-  358  grep -i great A1 |wc -w
-  359  file ascii.txt utf8.txt 
-  360  echo aaa >> FILE
-  361  file FILE
-  362  echo öäü >> FILE
-  363   file FILE
-  364  cat ascii.txt 
-  365  iconv -f utf-8 -t ascii
-  366  head -n 1 file.csv
-  367  head -n 1 A1
-  368  who
-  369  cat A1 | grep author|uniq|wc -l
-  370  cat A1 |grep id|uniq|wc -l
-  371  cat A1 |grep hashtags|uniq|wc -l
-  372  cat A1 |grep hashtags|wc -l|uniq
-  373  cat A1 |grep id|wc -l|uniq
-  374  cat A1 | grep author|wc -l|uniq
-  375  git init
-  376  ls
-  377  git status
-  378  cat a1.txt
-  379  head -n 50 a1.txt
-  380  cat A1 |grep author|wc -l|uniq
-  381  cat A1 |grep id |wc -l|uniq
-  382  cat A1 |grep hashtags |wc -l|uniq
-  383  tail -n 15 a1.txt
-  384  ls
-  385  cd A1
-  386  ls
-  387  tail -n 15 a1.txt
-  388  head -n 15 a1.txt
-  389  script a1.txt
-  390  tail -n 15 a1.txt
-  391  head -n 50 a1.txt
-  392  id
-  393  script a1.txt
-  394  id
-  395  id -g
-  396  ls
-  397  git init
-  398  git staus
-  399  git status
-  400  git commit -m "first"
-  401  touch a1.txt
-  402  ls
-  403  tail -n 15 a1.txt
-  404  git commit -m "first"
-  405  head -n 50 a1.txt
-  406  rm a1.txt
-  407  ls
-  408  script a1.txt
-  409  id
-  410  id -g
-  411  ls
-  412  cat A1 |grep author|wc -l|uniq
-  413  cat A1 |grep id |wc -l|uniq
-  414  cat A1 |grep hashtags |wc -l|uniq
-  415  git init
-  416  git status
-  417  git add a1.txt
-  418  git commit -m"first"
-  419  git remote add origin https://github.com/GGGGMMMM/a1.git
-  420  git branch -M main
-  421  git push -u origin main
-  422  git push -f -u origin main
-  423  echo "# a1" >> README.md
-  424  git init
-  425  git add README.md
-  426  git commit -m "first commit"
-  427  git branch -M main
-  428  git remote add origin git@github.com:GGGGMMMM/a1.git
-  429  git push -u origin main
-  430  git remote add origin https://github.com/GGGGMMMM/a1.git
-  431  git branch -M main
-  432  git push -u origin main
-  433  git push -f -u origin main
-  434  git remote add origin git@github.com:GGGGMMMM/a1.git
-  435  git branch -M main
-  436  git push -u origin main
-  437  git remote add origin git@github.com:GGGGMMMM/a1.git
-  438  git branch -M main
-  439  git push -u origin main
-  440  cat a1.txt
-  441  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-  442  head -n 1 /amazon_reviews_us_Books_v1_02.tsv.gz
-  443  head -n 1 amazon_reviews_us_Books_v1_02.tsv.gz
-  444  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
-  445  head -n 1 amazon_reviews_us_Books_v1_02.tsv.gz
-  446  head -n 1 amazon_reviews_us_Books_v1_02
-  447  grep verified *amazon_reviews_us_Books_v1_02
-  448  grep verified *amazon_reviews_us_Books_v1_02*
-  449  head -n 1 *amazon_reviews_us_Books_v1_02*
-  450  ls -l costumerID
-  451  grep costumerID *amazon_reviews_us_Books_v1_02*
-  452  grep ID *amazon_reviews_us_Books_v1_02*
-  453  head -1
-  454  unzip amazon_reviews_us_Books_v1_02.tsv.gz.1
-  455  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
-  456  cat amazon_reviews_us_Books_v1_02.tsv.gz.1
-  457  cat amazon_reviews_us_Books_v1_02
-  458  cat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3
-  459  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1
-  460  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3
-  461  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 4|sort|uniq -c|sort|tail -n 3
-  462  history > cmds.log
-  463  cat ws3.txt|tail -n 10
-  464  cat ws3.txt|head -n 10
-  465  cat ws3.txt|head -n 50
-  466  k
-  467  cat ws3.txt|tail -n 5
-  468  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3
-  469  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 4|sort|uniq -c|sort|tail -n 3
-  470  cat ws3.txt
-  471  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-  472  cat ws3.txt
-  473  cat ws3.txt|head - n 10
-  474  cat ws3.txt|head - n 30
-  475  echo "# ws3" >> README.md
-  476  git init
-  477  git add README.md
+   95  ls -l
+   96  cd A1
+   97  ls -l
+   98  cd ~
+   99  ls -l
+  100  cd A1
+  101  LS -L
+  102  ls -l
+  103  cd ~
+  104  cd /home/test/A1
+  105  pwd
+  106  ls -altr
+  107  cd /home/test/A1
+  108  ls -altr
+  109  pwd
+  110  head ls -altr
+  111  head downloaded_tweets_extend_origin
+  112  cd /home/test/A1
+  113  ls -altr
+  114  head &Es21@ddownloaded_tweets_extend.csv
+  115  head downloaded_tweets_extend.csv
+  116  head downloaded_tweets_extend_original.csv
+  117  ls
+  118  cd /home/test/A1
+  119  head downloaded_tweets_extend_nolf.csv
+  120  head downloaded_tweets_extend_original_nolf.csv
+  121  grep 457060718 downloaded_tweets_extend_original_nolf.csv
+  122  grep 1277324748301760000 downloaded_tweets_extend_original_nolf.csv
+  123  cat downloaded_tweets_extend_original_nolf.csv |cut -f 2|sort|uniq -c|sort|tail -n 
+  124  cat downloaded_tweets_extend_original_nolf.csv |cut -f 2|sort|uniq -c|sort|tail -n 10
+  125  grep 1651522832 downloaded_tweets_extend_original_nolf.csv
+  126  grep 2920030904 downloaded_tweets_extend_original_nolf.csv
+  127  grep 2722443955 downloaded_tweets_extend_original_nolf.csv
+  128  grep 47475039 downloaded_tweets_extend_original_nolf.csv
+  129  cat downloaded_tweets_extend_original_nolf.csv |awk '{print $2}'
+  130  cat downloaded_tweets_extend_original_nolf.csv |cut -f 2
+  131  exit
+  132  cd /home/test/A1
+  133  head downloaded_tweets_extend_nolf.txt
+  134  head downloaded_tweets_extend_original_nolf.txt
+  135  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2
+  136  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort
+  137  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort|uniq -c|sort|tail -n 10
+  138  grep 828038191974346000 downloaded_tweets_extend_original_nolf.txt
+  139  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort|uniq -c|sort|tail -n 1
+  140  head cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort|uniq -c|sort|tail -n 10
+  141  head downloaded_tweets_extend_original_nolf.txt
+  142  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort|tail -n 10
+  143  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort|tail -n 1
+  144  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6
+  145  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort|tail -n 10
+  146  grep 477934944 downloaded_tweets_extend_original_nolf.txt
+  147  grep 938494109844729000 downloaded_tweets_extend_original_nolf.txt
+  148  grep 583821006 downloaded_tweets_extend_original_nolf.txt
+  149  head downloaded_tweets_extend_original_nolf.txt
+  150  at downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort|tail -n 10
+  151  cat downloaded_tweets_extend_original_nolf.txt |cut -f 5|sort|uniq -c|sort|tail -n 10
+  152  grep 1516453738403143681 downloaded_tweets_extend_original_nolf.txt
+  153  cat downloaded_tweets_extend_original_nolf.txt |cut -f 5
+  154  head downloaded_tweets_extend_original_nolf.txt
+  155  cat downloaded_tweets_extend_original_nolf.txt|cut -f 5|grep retweeted
+  156  cat downloaded_tweets_extend_original_nolf.txt|cut -f 5
+  157  grep retweeted downloaded_tweets_extend_original_nolf.txt
+  158  head downloaded_tweets_extend_nolf.txt
+  159  head downloaded_tweets_extend_original_nolf.txt
+  160  cat downloaded_tweets_extend_nolf.txt|cut -f 5
+  161  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted
+  162  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted|sort|uniq -c|sort|tail -n 10
+  163  grep 1498671445676863494 downloaded_tweets_extend_nolf.txt
+  164  cat downloaded_tweets_extend_nolf.txt|cut 
+  165  head  downloaded_tweets_extend_nolf.txt
+  166  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|tail -n 10
+  167  grep Trudeau downloaded_tweets_extend_nolf.txt
+  168  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|tail -n 10
+  169  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|tail -n 30
+  170  head downloaded_tweets_extend_nolf.
+  171  head downloaded_tweets_extend_nolf.txt
+  172  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted|cut -f 4|tail -n 10
+  173  cat downloaded_tweets_extend_nolf.txt|cut -f 4,5|tail -n 10
+  174  cat downloaded_tweets_extend_nolf.txt|cut -f 4|grep retweeted
+  175  cat downloaded_tweets_extend_nolf.txt|grep retweeted|cut -f 4
+  176  head downloaded_tweets_extend_nolf.txt
+  177  cat downloaded_tweets_extend_nolf.txt|grep type=retweeted|tail -n 10
+  178   cat downloaded_tweets_extend_nolf.txt|grep type=
+  179   cat downloaded_tweets_extend_nolf.txt|gr
+  180  cat downloaded_tweets_extend_nolf.txt|grep type=retweeted|cut -f 4|sort|uniq -c|sort|tail -n 10
+  181  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|tail -n 10
+  182  grep yyccc downloaded_tweets_extend_nolf.
+  183   grep yyccc downloaded_tweets_extend_nolf.txt
+  184  grep yyccc downloaded_tweets_extend_nolf.txt|wl
+  185  cat downloaded_tweets_extend_nolf.txt|cut -f 4|uniq -c|sort|tail -n 10
+  186  cat downloaded_tweets_extend_nolf.txt|awk -F "\t" '{print $4}' |uniq -c|sort|tail -n 10
+  187  cat downloaded_tweets_extend_nolf.txt|cut -f 4|grep yyccc
+  188   cat downloaded_tweets_extend_nolf.txt|cut -f 4|grep PMQs
+  189  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq |sort|tail -n 10 
+  190  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|tail -n 20
+  191  cat downloaded_tweets_extend_nolf.txt|cut -f 4|grep RealityWinner
+  192  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -cd|sort|tail -n 13 
+  193  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|head -n 10 
+  194  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort -n|head -n 10 
+  195  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort -n|tail -n 10
+  196  cat downloaded_tweets_extend_nolf.txt||cut -f 4|grep StandWithUkraine|wc -l
+  197  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  198  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort|uniq -c|sort|tail -n 10
+  199  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort|uniq -c|sort -n|tail -n 10
+  200  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort|tail -n 10
+  201  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort -n|tail -n 10
+  202  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted|sort|uniq -c|sort -n|tail -n 10
+  203  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted|sort|uniq -c|sort |tail -n 10
+  204  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted|sort|uniq -c|sort -n|head -n 10
+  205  cat downloaded_tweets_extend_nolf.txt|grep type=retweeted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  206  head downloaded_tweets_extend_nolf.txt
+  207  cat downloaded_tweets_extend_nolf.txt|grep type=replied_to|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  208  cat downloaded_tweets_extend_nolf.txt|grep type=quoted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  209  script a2.txt
+  210  touch a2.txt
+  211  touch a2a.txt
+  212  cd /home/test/A1
+  213  script a2.txt
+  214  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  215  head -1 https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  216  head https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  217  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  218  head https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  219  ls
+  220  head amazon_reviews_us_Books_v1_02.tsv
+  221  ls
+  222  cat amazon_reviews_us_Books_v1_02.tsv
+  223  ls
+  224  head -n 3 amazon_reviews_us_Books_v1_02.ts
+  225  head -n 3 amazon_reviews_us_Books_v1_02.tsv
+  226  tail -n 3 amazon_reviews_us_Books_v1_02.tsv
+  227   cat amazon_reviews_us_Books_v1_02.tsv|uniq | tail -n 3
+  228  ls
+  229  head -n 4 amazon_reviews_us_Books_v1_02.tsv
+  230  grep 12076615 amazon_reviews_us_Books_v1_02.tsv
+  231  egrep 1207661 amazon_reviews_us_Books_v1_02.tsv
+  232  grep 12076615 amazon_reviews_us_Books_v1_02.tsv
+  233  egrep 12076615 amazon_reviews_us_Books_v1_02.tsv
+  234  tail -n 4 amazon_reviews_us_Books_v1_02.tsv
+  235  grep 53096573 amazon_reviews_us_Books_v1_02.tsv
+  236  grep 12257412 amazon_reviews_us_Books_v1_02.tsv
+  237  grep 12703090 amazon_reviews_us_Books_v1_02.tsv
+  238  egrep 12703090|12257412|53096573 amazon_reviews_us_Books_v1_02.tsv
+  239  egrep 12703090|12257412 amazon_reviews_us_Books_v1_02.tsv
+  240  egrep 12703090 amazon_reviews_us_Books_v1_02.tsv
+  241  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv
+  242  head -n 4 amazon_reviews_us_Books_v1_02.tsv
+  243  cat amazon_reviews_us_Books_v1_02.tsv| cut -f 4| head -n 4
+  244  mkdir CUSTOMERS
+  245  mkdir PRODUCTS
+  246  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  247  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8 > CUSTOMERS/customerID.txt
+  248  cat customerID.txt
+  249  ls
+  250  touch CUSTOMERS/customerID.txt
+  251  ls
+  252  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8 > CUSTOMERS/customerID.txt
+  253  cat customerID.txt
+  254  cd CUSTOMERS 
+  255  ls
+  256  cat customerID.txt
+  257  cd ~
+  258  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  259  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8 > PRODUCTS/productID.txt
+  260  cd PRODUCTS
+  261  ls
+  262  cat productID.txt
+  263  fgrep "12703090
+  264  12257412
+  265  53096573
+  266  0000000116
+  267  0000000868
+  268  0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
+  269  cd ~
+  270  fgrep "12703090
+  271  12257412
+  272  53096573
+  273  0000000116
+  274  0000000868
+  275  0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
+  276  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv
+  277  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+  278  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  279  head -n 5amazon_reviews_us_Books_v1_02.tsv
+  280  head -n 5 amazon_reviews_us_Books_v1_02.tsv
+  281  egrep "0385730586|0811828964|1844161560" amazon_reviews_us_Books_v1_02.tsv|
+  282  egrep "0385730586|0811828964|1844161560" amazon_reviews_us_Books_v1_02.tsv
+  283  egrep "0385730586|0811828964|1844161560" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  284  cat amazon_reviews_us_Books_v1_02.tsv| cut -f 4|uniq -u
+  285  grep 1563896745
+  286  grep 1563896745 amazon_reviews_us_Books_v1_02.tsv
+  287  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 4|uniq -u
+  288  grep 0071342486 amazon_reviews_us_Books_v1_02.tsv
+  289  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sort|head -n 4
+  290  grep 0000000116 amazon_reviews_us_Books_v1_02.tsv
+  291  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+  292  grep 0000000868 amazon_reviews_us_Books_v1_02.tsv
+  293  grep 0000020214 amazon_reviews_us_Books_v1_02.tsv
+  294  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  295  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
+  296  fgrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  297  fgrep "0000000116
+  298  0000000868
+  299  0000020214"amazon_reviews_us_Books_v1_02.tsv
+  300  fgrep "0000000116
+  301  ç
+  302  "
+  303  fgrep "0000000116
+  304  0000000868
+  305  0000020214" amazon_reviews_us_Books_v1_02.tsv
+  306  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
+  307  fgrep "0000000116
+  308  0000000868
+  309  0000020214
+  310  12703090
+  311  12257412
+  312  53096573
+  313  " amazon_reviews_us_Books_v1_02.tsv
+  314  fgrep "12703090
+  315  12257412
+  316  53096573" amazon_reviews_us_Books_v1_02.tsv
+  317  fgrep "12703090
+  318  1879335859" amazon_reviews_us_Books_v1_02.tsv
+  319  fgrep "12703090
+  320  1879335859" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  321  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
+  322  fgrep "12703090
+  323  1879335859" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
+  324  fgrep "12703090
+  325  12257412
+  326  53096573" amazon_reviews_us_Books_v1_02.tsv
+  327  fgrep "12703090
+  328  12257412
+  329  53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
+  330  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  331  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  332  fgrep "0000000116
+  333  12703090
+  334  0000000868" amazon_reviews_us_Books_v1_02.tsv
+  335  fgrep "0000000116
+  336  12703090
+  337  0000000868" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  338  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  339  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  340  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  341  fgrep "12703090
+  342  12257412
+  343  53096573
+  344  0000000116
+  345  0000000868
+  346  0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
+  347  ls
+  348  script ws4.txt
+  349  cat ws4.txt
+  350  history > cmds.lo
+  351  ls
+  352  rm cmds.lo 
+  353  history > cmds.log
+  354  ls
+  355  cat cmds.log 
+  356  git init
+  357  git add cmds.log
+  358  git add ws4.txt
+  359  git commit -m "first commit"
+  360  git branch -M main
+  361  git remote add origin https://github.com/GGGGMMMM/ws4.git
+  362  git push -u origin main
+  363  git remote remove origin
+  364  git remote -v
+  365  git remote add origin https://github.com/GGGGMMMM/ws4.git
+  366  git branch -M main
+  367  git push -u origin main
+  368  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  369  egrep "12703090|1563896745" amazon_reviews_us_Books_v1_02.tsv
+  370  egrep "12703090|1563896745" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
+  371  cd /home/test/A1
+  372  head downloaded_tweets_extend_nolf2.tsv
+  373  head downloaded_tweets_extend_original_nolf2.tsv
+  374  cd home/test/A1
+  375  cat downloaded_tweets_extend_original_nolf2.tsv |cut -f 2|sort|uniq -c|sort -n|tail -n 10
+  376  cat downloaded_tweets_extend_original_nolf2.tsv |cut -f 6|sort|uniq -c|sort -n|tail -n 10
+  377  cat downloaded_tweets_extend_nolf2.tsv|grep type=retweeted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  378  cat downloaded_tweets_extend_nolf2.tsv|grep type=quoted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  379   cat downloaded_tweets_extend_nolf2.tsv|grep quoted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  380  cat downloaded_tweets_extend_nolf2.tsv|grep ukraine|cut -f 4| wc -l
+  381  cat downloaded_tweets_extend_nolf2.tsv|grep ukraine
+  382  cat downloaded_tweets_extend_nolf2.tsv|grep ukraine| cut -f 4
+  383  cat downloaded_tweets_extend_nolf2.tsv|grep Ukraine| cut -f 4| L
+  384  cat downloaded_tweets_extend_nolf2.tsv|grep Ukraine| cut -f 4
+  385  cat downloaded_tweets_extend_nolf2.tsv|grep type=quoted|cut -f 4|sort|uniq -c|sort -n|tail -n 1
+  386  cat downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|grep type=quoted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  387  cat downloaded_tweets_extend_nolf2.tsv|grep type=quoted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  388   cat downloaded_tweets_extend_nolf2.tsv|grep type=retweeted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  389  cat downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  390  cat downloaded_tweets_extend_nolf2.tsv|grep type=replied_to|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  391  cat downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|grep type=replied_to|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  392  cal
+  393  /etc/shadow
+  394  /etc/passwd
+  395  Ctrl-D
+  396  echo “me”
+  397  pwd
+  398  echo `pwd`
+  399  echo “pwd”
+  400  `pwd`
+  401  echo $HOME
+  402  echo $? 
+  403  ls .[b]ashrc
+  404  ls .[ba]ashrc
+  405  man
+  406  ls ?? 
+  407  cd /
+  408  cd~
+  409  cd ~
+  410  find $PWD -type f -name “*.txt”
+  411  find . -type f -name “*.txt”
+  412  find ./ -type f -name “*.txt”
+  413  find . -type f -name “*.txt”
+  414  find `pwd` -type f -name “*.txt”
+  415  find -type f -size +1000MB
+  416  find . -type f -size +1000MB
+  417  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv |grep type=replied_to|cut -f 2|sort|uniq -c|sort -n|tail -n 10
+  418  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv |grep type=quoted|cut -f 2|sort|uniq -c|sort -n|tail -n 10
+  419  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|grep type=retweeted|cut -f 2|sort|uniq -c|sort -n |tail -n 10
+  420  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|cut -f 4|sed '/^[[:blank:]]*$/d'| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  421  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4| sed '/^[[:blank:]]*$/d'|sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  422  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=replied_to|cut -f 4| sed '/^[[:blank:]]*$/d'|sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  423  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=quoted|cut -f 4| sed '/^[[:blank:]]*$/d'|sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  424  cd /home/test/A1
+  425  ls
+  426  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_original_nolf2.tsv > downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  427  cd ~
+  428  mkdir ~/A2/ 
+  429  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv ~/A2/
+  430  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv ~/A2/
+  431  cd ~/A2/ 
+  432  ls
+  433  awk -F"\t" '($2 == $6) {print $0}' downloaded_tweets_extend_original_nolf2.tsv | wc
+  434  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_original_nolf2.tsv > downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  435  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_nolf2.tsv > downloaded_tweets_extend_nolf2_NOBOT.tsv
+  436  head downloaded_tweets_extend_nolf2.tsv
+  437  head downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  438  cat downloaded_tweets_extend_original_nolf2.tsv |cut -f 2|sort|uniq -c|sort -n|tail -n 10
+  439  cat downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|grep type=quoted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  440  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=quoted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  441  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  442  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=quoted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  443  cat downloaded_tweets_extend_nolf2.tsv|grep type=retweeted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  444  od -a downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  445  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|grep type=replied_to|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  446   cat downloaded_tweets_extend_nolf2_NOBOT.tsv|grep type=retweeted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  447   cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  448  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4| sed "s/”//g"|sort|uniq -c|sort -n|tail -n 30
+  449  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4| sed "s/"//g"|sort|uniq -c|sort -n|tail -n 30
+  450  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4| sed "s/"//g"|sort|uniq -c|sort -n|tail -n 30
+  451   cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4| sed 's/"//g'|sort|uniq -c|sort -n|tail -n 30
+  452  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4| sed '/^[[:blank:]]*$/d'| sed 's/"//g'|sort|uniq -c|sort -n|tail -n 30
+  453  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4| sed '/^[[:blank:]]*$/d'|tr ',' 'n'| sed 's/"//g'|sort|uniq -c|sort -n|tail -n 30
+  454  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4| sed '/^[[:blank:]]*$/d'|sed 's/"//g'|tr ',' 'n'|sort|uniq -c|sort -n|tail -n 30
+  455  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4| sed '/^[[:blank:]]*$/d'|sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  456  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv |cut -f 2|sort|uniq -c|sort -n|tail -n 10
+  457  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv |cut -f 2|sort|uniq -c|sort -n|head -1
+  458  grep 1000005001 downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  459  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv |grep type=replied_to|cut -f 2|sort|uniq -c|sort -n|tail -n 10
+  460  grep 940778288871542786 ownloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  461  grep 940778288871542786 downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  462  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv |grep type=replied_to|cut -f 2|sort|uniq -c|sort -n|head -1
+  463  grep 1001228776032763905 downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  464  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv |grep type=quoted|cut -f 2|sort|uniq -c|sort -n|tail -n 10
+  465  head downloaded_tweets_extend_nolf2_NOBOT.tsv -n 3
+  466  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|grep type=retweeted|cut -f 2|sort|uniq -c|sort -n |tail -n 10
+  467  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|cut -f 4|sort|uniq -c|sort -n|tail -n 30
+  468  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|cut -f 4|sed '/^[[:blank:]]*$/d'| sed 's/"//g'|sort|uniq -c|sort -n|tail -n 30
+  469  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|cut -f 4|sed '/^[[:blank:]]*$/d'| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  470  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=retweeted|cut -f 4| sed '/^[[:blank:]]*$/d'|sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  471  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=replied_to|cut -f 4| sed '/^[[:blank:]]*$/d'|sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  472  cat downloaded_tweets_extend_nolf2_NOBOT.tsv|tr "[:upper:]" "[:lower:]"|grep type=quoted|cut -f 4| sed '/^[[:blank:]]*$/d'|sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  473  script a2.txt
+  474  cat a2.txt
+  475  vi a2.txt
+  476  cat a2.txt
+  477  git init
   478  git commit -m "first commit"
-  479  git branch -M main
-  480  git remote add origin git@github.com:GGGGMMMM/ws3.git
-  481  git push -u origin main
-  482  echo "# ws3" >> README.md
-  483  git init
-  484  git add README.md
-  485  git commit -m "first commit"
-  486  git branch -M main
-  487  git remote add origin git@github.com:GGGGMMMM/ws3.git
-  488  git push -u origin main
-  489  git add ws3.txt
-  490  git add cmds.log
-  491  git -m commit"first"
-  492  git commit -m "first commit"
-  493  git push -u origin main
-  494  git fetch
+  479  git add a2.txt
+  480  git branch -M main
+  481  git remote add origin https://github.com/GGGGMMMM/a2.git
+  482  git push -u origin main
+  483  git remote add origin https://github.com/GGGGMMMM/a2.git
+  484  git remote rm origin
+  485  git remote add origin https://github.com/GGGGMMMM/a2.git
+  486  git push -u origin main
+  487  git push origin main
+  488  git branch -M main
+  489  git push -u origin main
+  490  git remote rm origin
+  491  git init
+  492  git add a2.txt
+  493  git commit -m 'Initial Commit'
+  494  git push -u origin master
   495  git push -u origin main
-  496  git push -f -u origin main
-  497  cat ws3.txt
-  498  rm ws3.txt
-  499  ls
-  500  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3
-  501  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 4|sort|uniq -c|sort|tail -n 3
-  502  ls
-  503  cat ws3.txt
-  504   cat ws3.txt
-  505  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3
-  506  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 4|sort|uniq -c|sort|tail -n 3
-  507  cat count.txt
-  508  cat cmds.log|tail -n 6
-  509  cat ws3.txt
-  510  git init
-  511  cat ws3.txt
-  512  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3 
-  513  cat ws3.txt
-  514  script ws3.txt
-  515  cat ws3.txt|tail -n 10
-  516  rm ws3.txt
-  517  ls
-  518  cat cmds.log  
-  519  script ws3.txt
-  520  ls
-  521  ws
-  522  script ws3.txt
-  523  cat ws3.txt
-  524  script ws3.txt
-  525  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3
-  526  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 4|sort|uniq -c|sort|tail -n 3
-  527  git add ws3.txt
-  528  ls
-  529  cat cmds.log
-  530  cat ws3.txt
-  531  rm ws3
-  532  ls
-  533  rm ws3.txt
-  534  ls
-  535  rm ws2
-  536  rmdir ws2
-  537  rm -r ws2
+  496  git branch -M main
+  497  git push -u origin main
+  498  git remote -v
+  499  git push git push myOrigin main
+  500  git remote remove myOrigin
+  501  git remote add origin https://github.com/GGGGMMMM/a2.git
+  502  git push -u origin main
+  503  cat a2.txt
+  504  ls
+  505  cd A1
+  506  CD ~
+  507  cd ~
+  508  cd A1
+  509  ls
+  510  cat a1.txt 
+  511  cd A1
+  512  LS
+  513  ls
+  514  cat a1.txt
+  515  cd A1
+  516  ls
+  517  cat a1.txt
+  518  ls -latr
+  519  chmod -R 777 temp
+  520  git add a1.txt
+  521  git commit  -m "second commit"
+  522  git push -f -u origin main
+  523  history > cmds.log
+  524  cat cmds.log
+  525  cd ..
+  526  mkdir A1test
+  527  cd A1test
+  528  git clone https://github.com/GGGGMMMM/a1.git
+  529  ls -latr
+  530  cd a1
+  531  ls -latr
+  532  cat a1.txt
+  533  rm -rf .git
+  534  git init
+  535  ls -latr
+  536  ls
+  537  cd A1test
   538  ls
-  539  script ws3.txt
-  540  cat ws3.txt
-  541  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3>ws3.txt
-  542  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3 > ws3.txt
-  543  cat ws3.txt
-  544  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 4|sort|uniq -c|sort|tail -n 3 >> ws3.txt
-  545  cat ws3.txt
-  546  script ws3.txt
-  547  cat ws3.txt
-  548  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3 > ws3.txt
-  549  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 4|sort|uniq -c|sort|tail -n 3 >> ws3.txt
-  550  cat ws3.txt
-  551  git add ws3.txt
-  552  git add cmds.log
-  553  git status
-  554  git commit -m "first"
-  555  git remote add origin git@github.com:GGGGMMMM/ws3.git
-  556  git branch -M main
-  557  git push -u origin main
-  558  git remote -v
-  559  git remote add origin git@github.com:GGGGMMMM/ws3.git
-  560  git remote add origin https://github.com/GGGGMMMM/ws3.git
-  561  git remote rm origin
-  562  git remote -v
-  563  git remote add origin git@github.com:GGGGMMMM/ws3.git
-  564  git push -u origin main
-  565  git remote add origin https://github.com/GGGGMMMM/ws3.git
-  566  git remote rm origin
-  567  git remote -v
-  568  [guoman@sjsu ~]$ 
-  569  git remote -v
-  570  git remote add origin https://github.com/GGGGMMMM/ws3.git
-  571  git branch -M main
-  572  git push -u origin main
-  573  cat ws3.txt
-  574  git reset --soft HEAD~1
-  575  git push -u origin main
-  576  git status
-  577  rm amazon_reviews_us_Books_v1_02.tsv
-  578  rm amazon_reviews_us_Books_v1_02.tsv.gz
-  579  rm amazon_reviews_us_Books_v1_02.tsv.gz.1
-  580  rm amazon_reviews_us_Books_v1_02.tsv.gz.2
-  581  rm amazon_reviews_us_Books_v1_02.tsv.gz.3
-  582  rm amazon_reviews_us_Books_v1_02.tsv.gz.4
-  583  git status
-  584  rm ws3.txt
-  585  git status
-  586  git init
-  587  touch wsthree.txt
-  588  ls
-  589  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3 >wsthree.txt
-  590  wget amazon_reviews_us_Books_v1_02.tsv.gz.1
-  591  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-  592  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3 >wsthree.txt
-  593  gunzip amazon_reviews_us_Books_v1_02.tsv.gz.1
-  594  ls
-  595  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3 >wsthree.txt
-  596  cat wsthree.txt
-  597  gzip -d amazon_reviews_us_Books_v1_02.tsv.gz
-  598  zcat amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3 >wsthree.txt
-  599  zcat -d amazon_reviews_us_Books_v1_02.tsv.gz.1|cut -f 2|sort|uniq -c|sort|tail -n 3 >wsthree.txt
-  600  c
-  601  cat cmds.log|tail -n 10
-  602  git status
-  603  ls
-  604  git remote add origin https://github.com/GGGGMMMM/ws3.git
-  605  git branch -M main
-  606  git push -u origin main
-  607  git remove -m origin
-  608  zcat amazon_reviews_us_Books_v1_02.tsv.gz|cut -f 4|sort|uniq -c|sort|tail -n 3
-  609  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
-  610  ls
-  611  zcat amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sort|tail -n 3
-  612   gunzip amazon_reviews_us_Books_v1_02.tsv
-  613  zcat amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sort|tail -n 3
-  614  zcat  amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sort|tail -n 3
-  615  cat  amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sort|tail -n 3
-  616  cat  amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sort|tail -n 3 > wsthree.txt
-  617  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2|sort|uniq -c|sort|tail -n 3
-  618  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2|sort|uniq -c|sort|tail -n 3 >> wsthree.txt
-  619  git remote rm origin
-  620  git remote -v
-  621  git init
-  622  git commit -m "first commit"
-  623  git rm  ws3.txt 
-  624  git commit -m"first commit"
-  625  git add wsthree.txt
-  626  git status
-  627  git branch -M main
-  628  git remote add origin https://github.com/GGGGMMMM/ws3.git
-  629  git push -u origin main
-  630  git init
-  631  git -a ws3.txt
-  632  git rm ws3.txt
-  633  git commit -m "second"
-  634  git remote add origin https://github.com/GGGGMMMM/ws3.git
-  635  git branch -M main
-  636  git push -u origin main
-  637  git rm --cached ws3.txt
-  638  git commit --amend -CHEAD
-  639  git push
-  640  git push -u origin main
-  641  ls
-  642  cat wsthree.txt
-  643  cat cmds.log | tail -n 10
-  644  echo "# worksheet3" >> README.md
-  645  git init
-  646  git add README.md
-  647  git commit -m "first commit"
-  648  git branch -M main
-  649  git remote add origin https://github.com/GGGGMMMM/worksheet3.git
-  650  git push -u origin main
-  651  git remove -v
-  652  git remote -v
-  653  git remote rm origin
-  654  git remote -v
-  655  echo "# worksheet3" >> README.md
-  656  git init
-  657  git add README.md
-  658  git commit -m "first commit"
-  659  git branch -M main
-  660  git remote add origin https://github.com/GGGGMMMM/worksheet3.git
-  661  git push -u origin main
-  662  git gc --prune=now --aggressive
-  663  git status
-  664  echo "# worksheet3" >> README.md
-  665  git init
-  666  git add README.md
-  667  git commit -m "first commit"
-  668  git branch -M main
-  669  git remote add origin https://github.com/GGGGMMMM/worksheet3.git
-  670  git push -u origin main
-  671  brew install git-lfs
-  672  echo "# worksheet3" >> README.md
-  673  git init
-  674  git add README.md
-  675  git commit -m "first commit"
-  676  git branch -M main
-  677  git remote add origin https://github.com/GGGGMMMM/worksheet3.git
-  678  git push -u origin main
-  679  git pull --rebase
-  680  git push -u origin main
-  681  git commit --amend "fir"
-  682  git commit --amend -m "fit"
-  683  git branch -M main
-  684  git remote add origin https://github.com/GGGGMMMM/worksheet3.git
-  685  git push -u origin main
-  686  git rm --cached giant_file
-  687  git rm --cached ws3.txt 
-  688  git rm --cached giant_file
-  689  git show a303aa90779efdd2f6b9d90693e2cbbbe4613c1d
-  690  git diff-tree --no-commit-id --name-only -r bd61ad98
-  691  git log
-  692  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2|sort|uniq -c|sort|tail -n 3
-  693  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sort|tail -n 3
-  694  cat cmds.log
-  695  git init -b main
-  696  git add cmds.log
-  697  git commit
-  698  git remote add origin https://github.com/GGGGMMMM/ws2.git
-  699  git remote -v
-  700  git push -u origin main
-  701  git remote rm origin
-  702  git remote -v
-  703  git remote add origin https://github.com/GGGGMMMM/ws2.git
-  704  git push -u origin main
-  705  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sort|tail -n 3
-  706  cat  ww.txt
-  707  scrip ww.txt
-  708  script ww.txt
-  709  cat  ww.txt
-  710  git status
-  711  git add ww.txt
-  712  git status
-  713  git restore --staged ws3.txt
+  539  a1
+  540  cd a1
+  541  ls
+  542  cat a1.txt
+  543  vi a1.txt
+  544  cat a1.txt
+  545  cd ~
+  546  id
+  547  id -g
+  548  mkdir trm
+  549  chmod 677 trm
+  550  cd trm
+  551  ls trm
+  552  ls -l trm
+  553  pwd
+  554  touch /home/guoma/trm/test.txt
+  555  cd trm
+  556  pwd trm
+  557  touch /trm/test.txt
+  558  touch trm/test.txt
+  559  mkdir trm2
+  560  mv trm2 trm3
+  561  cp trm3 trm4
+  562  cp trm2 trm3
+  563  cp -r trm3 trm4
+  564  ls
+  565  ls -altr
+  566  cat < /dev/tty
+  567  ls
+  568  ls mem
+  569  ls
+  570  cd /proc
+  571  ls
+  572  cd ~
+  573  ls /proc
+  574  head meminfo
+  575  cd /proc
+  576  head meminfo
+  577  head cpuinfo
+  578  tail cpuinfo
+  579  cat cpuinfo
+  580  cd ~
+  581  mkdir a
+  582  cp /home/test/A1/downloaded_hashtags_extend.csv a
+  583  cd a
+  584  ls
+  585  grep -i great downloaded_hashtags_extend.csv|wc -w
+  586  cat ascii.txt 
+  587  echo aaa >> FILE
+  588  file FILE
+  589  downloaded_hashtags_extend.csv  FILE
+  590  file FILE
+  591  echo aaa >> FILE
+  592  downloaded_hashtags_extend.csv  FILE
+  593  echo öäü >> FILE
+  594  file FILE
+  595  iconv -f utf-8 -t ascii
+  596  uni2ascii -B downloaded_hashtags_extend.csv>output.txt
+  597  iconv -f  UTF-8-t ASCII input.txt -o output.txt
+  598  iconv -f  UTF-8 -t ASCII input.txt -o output.txt
+  599  iconv -f  UTF-8 -t ASCII file -o output.txt
+  600  iconv -f  UTF-8 -t ASCII downloaded_hashtags_extend.csv -o output.txt
+  601  iconv -f utf-8 -t ascii downloaded_hashtags_extend.csv -o output.txt
+  602  iconv -f latin1 -t ascii downloaded_hashtags_extend.csv -o output.txt
+  603  dd if = downloaded_hashtags_extend.csv of =error.txt bs=1 count=10 skip=41776
+  604  hexdump -C downloaded_hashtags_extend.csv
+  605  file downloaded_hashtags_extend.csv
+  606  iconv -f UTF-8 -t ascii 
+  607  iconv -f UTF-8 -t ascii downloaded_hashtags_extend.csv -o output.csv
+  608  echo café äëïöü | tr -d '\200-\277' | tr '\300-\377' '[?*]'
+  609  konwert utf8-ascii
+  610  utf8-ascii
+  611  head -1 downloaded_hashtags_extend.csv
+  612  cat downloaded_hashtags_extend.csv|cut -f 1|uniq|wc -l
+  613  head -2 downloaded_hashtags_extend.csv
+  614  cat downloaded_hashtags_extend.csv|cut -f 1|wc -l
+  615  cat downloaded_hashtags_extend.csv|cut -f 4|uniq|wc -l
+  616  cat downloaded_hashtags_extend.csv|cut -f 2|uniq|wc -l
+  617  cd a
+  618  la
+  619  ls
+  620  cat downloaded_hashtags_extend.csv|tr ',' '[:blank:]'
+  621  cat downloaded_hashtags_extend.csv|tr ',','[:blank:]'
+  622  cat downloaded_hashtags_extend.csv|tr ','' '
+  623  cat downloaded_hashtags_extend.csv|tr ','''
+  624  cat downloaded_hashtags_extend.csv|tr ',' ''
+  625  cat downloaded_hashtags_extend.csv|awk -F "\"*,\"*" '{print $1}'
+  626  cat downloaded_hashtags_extend.csv|awk -F "\"*,\"*" '{print $1}’|uniq 
+  627  cat downloaded_hashtags_extend.csv|awk -F "\"*,\"*" '{print $1}’|uniq|wc -l
+  628  cat downloaded_hashtags_extend.csv|cut -d ',' -f1
+  629  cd a
+  630  ls
+  631  cat downloaded_hashtags_extend.csv|cut -d ',' -f1
+  632  cat downloaded_hashtags_extend.csv|cut -d ',' -f1| uniq
+  633  cat downloaded_hashtags_extend.csv|cut -d ',' -f1| uniq|wc -l
+  634  cat downloaded_hashtags_extend.csv|cut -d ',' -f4| uniq|wc -l
+  635  cat downloaded_hashtags_extend.csv|cut -d ',' -f2| uniq|wc -l
+  636  cat downloaded_hashtags_extend.csv|cut -d ',' -f4
+  637  cat downloaded_hashtags_extend.csv|cut -d ',' -f2
+  638  mkdir b
+  639  cd b
+  640  pwd
+  641  cd ~
+  642  pwd
+  643  id
+  644  id -g
+  645  mkdir t
+  646  chmod 677 t
+  647  cd t
+  648  ls 
+  649  ls t
+  650  ls -l t
+  651  touch t/test.txt
+  652  mkdir t2
+  653  mv t2 t3
+  654  cp -r t3 t4
+  655  cd /proc
+  656  ls
+  657  head meminfo
+  658  head cpuinfo
+  659  tail cpuinfo
+  660   cat cpuinfo
+  661  cp /home/test/A1/downloaded_hashtags_extend.csv b
+  662  cd ~
+  663  cp /home/test/A1/downloaded_hashtags_extend.csv b
+  664  cd b
+  665  ls
+  666  grep -i great downloaded_hashtags_extend.csv|wc -w
+  667  cat ascii.txt 
+  668  echo aaa >> FILE
+  669  [guoman@sjsu a]$ file FILE
+  670  echo aaa >> FILE
+  671  file FILE
+  672  echo öäü >> FILE
+  673  file FILE
+  674  script 1.txt
+  675  cat 1.txt
+  676  cd a
+  677  ls
+  678  head -5 downloaded_hashtags_extend.csv
+  679  head -15 downloaded_hashtags_extend.csv
+  680   cat downloaded_hashtags_extend.csv |cut -f 1|uniq|wc -l
+  681  cat downloaded_hashtags_extend.csv |cut -f 1|uniq
+  682  cat downloaded_hashtags_extend.csv |cut -f 1|uniq|wc -w
+  683  cat downloaded_hashtags_extend.csv |cut -f 1
+  684  cat downloaded_hashtags_extend.csv |awk '{print $1}'
+  685  cat downloaded_hashtags_extend.csv|tr ',' '\n'
+  686  cd A1test
+  687  cd a1
+  688  vi a1.txt
+  689  ls
+  690  cat a1.txt
+  691  vi a1.txt
+  692  cata1.txt
+  693  cat a1.txt
+  694  git init
+  695  git add a1.txt
+  696  git commit -m "first commit"
+  697  git branch -M main
+  698  git remote add origin https://github.com/GGGGMMMM/a1-new.git
+  699  git push -u origin main
+  700  cd b
+  701  ls
+  702  du -sh downloaded_hashtags_extend.csv
+  703  wc -l downloaded_hashtags_extend.csv
+  704  cd /rpoc
+  705  cd /proc
+  706  lscpu
+  707  grep GHz cpuinfo
+  708  cat /proc/cpuinfo grep GHz
+  709  cat /proc/cpuinfo|grep GHz
+  710  lscpu
+  711  cd A1
+  712  vi a1.txt
+  713  cd A1
   714  ls
-  715  cat  wsthree.txt
-  716  cat ww.txt
-  717  ww.txt
-  718  cat ww.txt
-  719  more ww.txt
-  720  echo "# worksheet2" >> README.md
-  721  git init
-  722  git add README.md
-  723  git commit -m "first commit"
-  724  git branch -M main
-  725  git remote add origin https://github.com/GGGGMMMM/worksheet2.git
-  726  git push -u origin main
-  727  git status
-  728  git reset --soft HEAD~3
-  729  git commit -m "New message for the combined commit"
-  730  git push -u origin main
-  731  git reset --soft HEAD~2
-  732  git commit -m "New message for the combined commit"
-  733  git push -u origin main
-  734  GIT INIT
-  735  git init
-  736  git status
-  737  git rev-list --count <revision>
-  738  git rev-list --all --count
-  739  git reset HEAD~9
-  740  git reset --soft HEAD~9
-  741  git rev-list --count HEAD
-  742  git checkout --orphan main
-  743  git checkout --orphan latest_branch
-  744  git checkout --orphan main
-  745  git checkout --orphan latest_branch
-  746  git add -A
-  747  git commit -am "commit message"
-  748  git branch -D main
-  749  git branch -m main
-  750  git push -f origin main
-  751  rm ww.txt
-  752  rm cmds.log
+  715  cat a1.txt
+  716  cd b
+  717  vi 1.tst
+  718  vi 1.txt
+  719  ls
+  720  cd ~
+  721  vi 1.txt
+  722  cd b
+  723  id
+  724  cat downloaded_hashtags_extend.csv|cut -d ',' -f1| uniq|wc -l
+  725  cat downloaded_hashtags_extend.csv|cut -d ',' -f4| uniq|wc -l
+  726  cat downloaded_hashtags_extend.csv|cut -d ',' -f2| uniq|wc -l
+  727  ls
+  728  cat1.txt
+  729  cat 1.txt
+  730  cd A1test
+  731  ls
+  732  cd a1
+  733  ls
+  734  vi a1.txt
+  735  cat a1.txt
+  736  vi a1.txt
+  737  cat a1.txt
+  738  vi a1.txt
+  739  cat a1.txt
+  740  vi a1.txt
+  741  cat a1.txt
+  742  [guoman@sjsu a1]$ 
+  743  vi a1.txt
+  744  cat a1.txt
+  745  vi a1.txt
+  746  cat a1.txt
+  747  vi a1.txt
+  748  cat a1.txt
+  749  vi a1.txt
+  750  mkdir ~/A3/ 
+  751  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv ~/A3/ 
+  752  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv ~/A3/ 
   753  ls
-  754  rm count
-  755  rm count.txt
-  756  rm README.md
-  757  rv 
-  758  rm wsthree.txt
-  759  ls
-  760  more a1.txt
-  761  wget downloaded_tweets_extend_nolf.csv
-  762  downloaded_tweets_extend_nolf.csv
-  763  curl downloaded_tweets_extend_nolf.csv
-  764  cd A1
-  765  ls
-  766  rw README.md
-  767  rm README.md
+  754  cd ~/A3/ 
+  755  ls
+  756  head -3 downloaded_tweets_extend_nolf2.tsv
+  757  head -5 
+  758  head -5  downloaded_tweets_extend_original_nolf2.tsv
+  759  script a3.txt
+  760  cd ~/A3/
+  761  tmux attach -t homework
+  762  head -5  downloaded_tweets_extend_original_nolf2.tsv
+  763  head -10 downloaded_tweets_extend_original_nolf2.tsv
+  764  head -5 downloaded_tweets_extend_original_nolf2.tsv
+  765  exit
+  766  tmux new-session -s homework
+  767  cd ~/A3/
   768  ls
-  769  open downloaded_tweets_extend_original_nolf.csv
-  770  downloaded_tweets_extend_original_nolf.csv
-  771  cd test/A1
-  772  cd home/test/A1
-  773  db2dsdcfgfill -i downloaded_tweets_extend.csv -o A1
-  774  cp downloaded_tweets_extend.csv /A1
-  775  cp downloaded_tweets_extend.csv /A1/downloaded_tweets_extend.csv
-  776  cp /home/test/A1/*/home/A1/
-  777  cp /home/test/A1/*/home/A1
-  778  cp /home/test/A1/downloaded_tweets_extend.csv */home/A1
-  779  cp /home/test/A1/downloaded_tweets_extend.csv */home/A1/downloaded_tweets_extend.csv
-  780  cp /home/test/A1/downloaded_tweets_extend.csv */A1/
-  781  cd/var/log
-  782  find downloaded_tweets_extend.csv
-  783  find . -name downloaded_tweets_extend.csv
-  784  cd A1
-  785  find . -name downloaded_tweets_extend.csv
-  786  find -01 downloaded_tweets_extend.csv
-  787  cd /home/test/A1
-  788  ls
-  789  ll
-  790  ls
-  791  cs ~
-  792  cd ~
-  793  ls
-  794  cd /home/test/A1
-  795  ls
-  796  head -n 1 download_tweets_extend.csv
-  797  cd ~
-  798  cd A1
-  799  ls
-  800  cd /home/test/A1
-  801  ls
-  802  ls -lh
-  803  lh
-  804  sudo chmod 775 /home/test/A1
+  769  head -5 downloaded_tweets_extend_original_nolf2.tsv
+  770  cat downloaded_tweets_extend_original_nolf2.tsv|cut -f 6,2
+  771  cat downloaded_tweets_extend_original_nolf2.tsv|cut -f 6
+  772  cat downloaded_tweets_extend_original_nolf2.tsv|cut -f 6|sed '/^[[:blank:]]*$/d'
+  773  cut -f 2 downloaded_tweets_extend_original_nolf2.tsv
+  774  cut -f 6 downloaded_tweets_extend_original_nolf2.tsv|cut -f 2 downloaded_tweets_extend_original_nolf2.tsv
+  775  cat downloaded_tweets_extend_original_nolf2.tsv|cut -f 6,2|sed '/^[[:blank:]]*$/d'
+  776  cat downloaded_tweets_extend_original_nolf2.tsv|awk -F'\t' '$6!=""'|cut -f 6,2
+  777  cd ~/A3/
+  778  cat downloaded_tweets_extend_original_nolf2.tsv|awk -F'\t' '$6!=""'|cut -f 6,2
+  779  cd ~/A1/
+  780  cat downloaded_tweets_extend_original_nolf2.tsv|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|head -30
+  781  cd ~/A3/
+  782  cat downloaded_tweets_extend_original_nolf2.tsv|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|head -30
+  783  cat downloaded_tweets_extend_original_nolf2.tsv|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|diff|head -30
+  784  cat downloaded_tweets_extend_original_nolf2.tsv|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|head -30
+  785  cat downloaded_tweets_extend_original_nolf2.tsv|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|tail -30
+  786  grep 1.32151E+18 downloaded_tweets_extend_original_nolf2.tsv
+  787  cat downloaded_tweets_extend_original_nolf2.tsv|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|tail -30grep 
+  788  grep 997519418492993537 downloaded_tweets_extend_original_nolf2.tsv
+  789  cat downloaded_tweets_extend_original_nolf2.tsv|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|grep 997519418492993537
+  790  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|tail -30
+  791  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|uniq -c|sort -n|awk '{ if ($1 >= 3) {print} }'|tail -n 30
+  792  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|uniq -c|sort -n|grep 1098819491780153345
+  793  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|grep 1098819491780153345
+  794  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|grep 1098819491780153345
+  795  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|grep 1098819491780153345|uniq -c|sort -n|tail -30
+  796  $ cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|uniq -c|sort -n|tail -30
+  797  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'
+  798  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|uniq -c|sort -n|tail -n 30
+  799  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|grep 86626845
+  800  tmux attach -t homework
+  801  cd ~/A3/
+  802  ls
+  803  cat replies_data.csv
+  804  rm replies_data.csv
   805  ls
-  806  ls -l
-  807  cd A1
-  808  ls -l
-  809  cd ~
-  810  ls -l
-  811  cd A1
-  812  LS -L
-  813  ls -l
-  814  cd ~
-  815  cd /home/test/A1
-  816  pwd
-  817  ls -altr
-  818  cd /home/test/A1
-  819  ls -altr
-  820  pwd
-  821  head ls -altr
-  822  head downloaded_tweets_extend_origin
-  823  cd /home/test/A1
-  824  ls -altr
-  825  head &Es21@ddownloaded_tweets_extend.csv
-  826  head downloaded_tweets_extend.csv
-  827  head downloaded_tweets_extend_original.csv
-  828  ls
-  829  cd /home/test/A1
-  830  head downloaded_tweets_extend_nolf.csv
-  831  head downloaded_tweets_extend_original_nolf.csv
-  832  grep 457060718 downloaded_tweets_extend_original_nolf.csv
-  833  grep 1277324748301760000 downloaded_tweets_extend_original_nolf.csv
-  834  cat downloaded_tweets_extend_original_nolf.csv |cut -f 2|sort|uniq -c|sort|tail -n 
-  835  cat downloaded_tweets_extend_original_nolf.csv |cut -f 2|sort|uniq -c|sort|tail -n 10
-  836  grep 1651522832 downloaded_tweets_extend_original_nolf.csv
-  837  grep 2920030904 downloaded_tweets_extend_original_nolf.csv
-  838  grep 2722443955 downloaded_tweets_extend_original_nolf.csv
-  839  grep 47475039 downloaded_tweets_extend_original_nolf.csv
-  840  cat downloaded_tweets_extend_original_nolf.csv |awk '{print $2}'
-  841  cat downloaded_tweets_extend_original_nolf.csv |cut -f 2
-  842  exit
-  843  cd /home/test/A1
-  844  head downloaded_tweets_extend_nolf.txt
-  845  head downloaded_tweets_extend_original_nolf.txt
-  846  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2
-  847  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort
-  848  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort|uniq -c|sort|tail -n 10
-  849  grep 828038191974346000 downloaded_tweets_extend_original_nolf.txt
-  850  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort|uniq -c|sort|tail -n 1
-  851  head cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort|uniq -c|sort|tail -n 10
-  852  head downloaded_tweets_extend_original_nolf.txt
-  853  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort|tail -n 10
-  854  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort|tail -n 1
-  855  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6
-  856  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort|tail -n 10
-  857  grep 477934944 downloaded_tweets_extend_original_nolf.txt
-  858  grep 938494109844729000 downloaded_tweets_extend_original_nolf.txt
-  859  grep 583821006 downloaded_tweets_extend_original_nolf.txt
-  860  head downloaded_tweets_extend_original_nolf.txt
-  861  at downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort|tail -n 10
-  862  cat downloaded_tweets_extend_original_nolf.txt |cut -f 5|sort|uniq -c|sort|tail -n 10
-  863  grep 1516453738403143681 downloaded_tweets_extend_original_nolf.txt
-  864  cat downloaded_tweets_extend_original_nolf.txt |cut -f 5
-  865  head downloaded_tweets_extend_original_nolf.txt
-  866  cat downloaded_tweets_extend_original_nolf.txt|cut -f 5|grep retweeted
-  867  cat downloaded_tweets_extend_original_nolf.txt|cut -f 5
-  868  grep retweeted downloaded_tweets_extend_original_nolf.txt
-  869  head downloaded_tweets_extend_nolf.txt
-  870  head downloaded_tweets_extend_original_nolf.txt
-  871  cat downloaded_tweets_extend_nolf.txt|cut -f 5
-  872  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted
-  873  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted|sort|uniq -c|sort|tail -n 10
-  874  grep 1498671445676863494 downloaded_tweets_extend_nolf.txt
-  875  cat downloaded_tweets_extend_nolf.txt|cut 
-  876  head  downloaded_tweets_extend_nolf.txt
-  877  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|tail -n 10
-  878  grep Trudeau downloaded_tweets_extend_nolf.txt
-  879  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|tail -n 10
-  880  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|tail -n 30
-  881  head downloaded_tweets_extend_nolf.
-  882  head downloaded_tweets_extend_nolf.txt
-  883  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted|cut -f 4|tail -n 10
-  884  cat downloaded_tweets_extend_nolf.txt|cut -f 4,5|tail -n 10
-  885  cat downloaded_tweets_extend_nolf.txt|cut -f 4|grep retweeted
-  886  cat downloaded_tweets_extend_nolf.txt|grep retweeted|cut -f 4
-  887  head downloaded_tweets_extend_nolf.txt
-  888  cat downloaded_tweets_extend_nolf.txt|grep type=retweeted|tail -n 10
-  889   cat downloaded_tweets_extend_nolf.txt|grep type=
-  890   cat downloaded_tweets_extend_nolf.txt|gr
-  891  cat downloaded_tweets_extend_nolf.txt|grep type=retweeted|cut -f 4|sort|uniq -c|sort|tail -n 10
-  892  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|tail -n 10
-  893  grep yyccc downloaded_tweets_extend_nolf.
-  894   grep yyccc downloaded_tweets_extend_nolf.txt
-  895  grep yyccc downloaded_tweets_extend_nolf.txt|wl
-  896  cat downloaded_tweets_extend_nolf.txt|cut -f 4|uniq -c|sort|tail -n 10
-  897  cat downloaded_tweets_extend_nolf.txt|awk -F "\t" '{print $4}' |uniq -c|sort|tail -n 10
-  898  cat downloaded_tweets_extend_nolf.txt|cut -f 4|grep yyccc
-  899   cat downloaded_tweets_extend_nolf.txt|cut -f 4|grep PMQs
-  900  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq |sort|tail -n 10 
-  901  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|tail -n 20
-  902  cat downloaded_tweets_extend_nolf.txt|cut -f 4|grep RealityWinner
-  903  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -cd|sort|tail -n 13 
-  904  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort|head -n 10 
-  905  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort -n|head -n 10 
-  906  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort -n|tail -n 10
-  907  cat downloaded_tweets_extend_nolf.txt||cut -f 4|grep StandWithUkraine|wc -l
-  908  cat downloaded_tweets_extend_nolf.txt|cut -f 4|sort|uniq -c|sort -n|tail -n 30
-  909  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort|uniq -c|sort|tail -n 10
-  910  cat downloaded_tweets_extend_original_nolf.txt |cut -f 2|sort|uniq -c|sort -n|tail -n 10
-  911  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort|tail -n 10
-  912  cat downloaded_tweets_extend_original_nolf.txt |cut -f 6|sort|uniq -c|sort -n|tail -n 10
-  913  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted|sort|uniq -c|sort -n|tail -n 10
-  914  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted|sort|uniq -c|sort |tail -n 10
-  915  cat downloaded_tweets_extend_nolf.txt|cut -f 5|grep retweeted|sort|uniq -c|sort -n|head -n 10
-  916  cat downloaded_tweets_extend_nolf.txt|grep type=retweeted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
-  917  head downloaded_tweets_extend_nolf.txt
-  918  cat downloaded_tweets_extend_nolf.txt|grep type=replied_to|cut -f 4|sort|uniq -c|sort -n|tail -n 30
-  919  cat downloaded_tweets_extend_nolf.txt|grep type=quoted|cut -f 4|sort|uniq -c|sort -n|tail -n 30
-  920  script a2.txt
-  921  touch a2.txt
-  922  touch a2a.txt
-  923  cd /home/test/A1
-  924  script a2.txt
-  925  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-  926  head -1 https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-  927  head https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-  928  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-  929  head https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
-  930  ls
-  931  head amazon_reviews_us_Books_v1_02.tsv
-  932  ls
-  933  cat amazon_reviews_us_Books_v1_02.tsv
-  934  ls
-  935  head -n 3 amazon_reviews_us_Books_v1_02.ts
-  936  head -n 3 amazon_reviews_us_Books_v1_02.tsv
-  937  tail -n 3 amazon_reviews_us_Books_v1_02.tsv
-  938   cat amazon_reviews_us_Books_v1_02.tsv|uniq | tail -n 3
-  939  ls
-  940  head -n 4 amazon_reviews_us_Books_v1_02.tsv
-  941  grep 12076615 amazon_reviews_us_Books_v1_02.tsv
-  942  egrep 1207661 amazon_reviews_us_Books_v1_02.tsv
-  943  grep 12076615 amazon_reviews_us_Books_v1_02.tsv
-  944  egrep 12076615 amazon_reviews_us_Books_v1_02.tsv
-  945  tail -n 4 amazon_reviews_us_Books_v1_02.tsv
-  946  grep 53096573 amazon_reviews_us_Books_v1_02.tsv
-  947  grep 12257412 amazon_reviews_us_Books_v1_02.tsv
-  948  grep 12703090 amazon_reviews_us_Books_v1_02.tsv
-  949  egrep 12703090|12257412|53096573 amazon_reviews_us_Books_v1_02.tsv
-  950  egrep 12703090|12257412 amazon_reviews_us_Books_v1_02.tsv
-  951  egrep 12703090 amazon_reviews_us_Books_v1_02.tsv
-  952  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv
-  953  head -n 4 amazon_reviews_us_Books_v1_02.tsv
-  954  cat amazon_reviews_us_Books_v1_02.tsv| cut -f 4| head -n 4
-  955  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv
-  956  head -n 1 amazon_reviews_us_Books_v1_02.tsv
-  957  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  958  head -n 5amazon_reviews_us_Books_v1_02.tsv
-  959  head -n 5 amazon_reviews_us_Books_v1_02.tsv
-  960  egrep "0385730586|0811828964|1844161560" amazon_reviews_us_Books_v1_02.tsv|
-  961  egrep "0385730586|0811828964|1844161560" amazon_reviews_us_Books_v1_02.tsv
-  962  egrep "0385730586|0811828964|1844161560" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  963  cat amazon_reviews_us_Books_v1_02.tsv| cut -f 4|uniq -u
-  964  grep 1563896745
-  965  grep 1563896745 amazon_reviews_us_Books_v1_02.tsv
-  966  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 4|uniq -u
-  967  grep 0071342486 amazon_reviews_us_Books_v1_02.tsv
-  968  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sort|head -n 4
-  969  grep 0000000116 amazon_reviews_us_Books_v1_02.tsv
-  970  head -n 1 amazon_reviews_us_Books_v1_02.tsv
-  971  grep 0000000868 amazon_reviews_us_Books_v1_02.tsv
-  972  grep 0000020214 amazon_reviews_us_Books_v1_02.tsv
-  973  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  974  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
-  975  fgrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  976  fgrep "0000000116
-0000000868
-0000020214"amazon_reviews_us_Books_v1_02.tsv
-  977  fgrep "0000000116
-
-ç
-"
-  978  fgrep "0000000116
-0000000868
-0000020214" amazon_reviews_us_Books_v1_02.tsv
-  979  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
-  980  fgrep "0000000116
-0000000868
-0000020214
-12703090
-12257412
-53096573
-" amazon_reviews_us_Books_v1_02.tsv
-  981  fgrep "12703090
-12257412
-53096573" amazon_reviews_us_Books_v1_02.tsv
-  982  fgrep "12703090
-1879335859" amazon_reviews_us_Books_v1_02.tsv
-  983  fgrep "12703090
-1879335859" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  984  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
-  985  fgrep "12703090
-1879335859" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
-  986  fgrep "12703090
-12257412
-53096573" amazon_reviews_us_Books_v1_02.tsv
-  987  fgrep "12703090
-12257412
-53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
-  988  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  989  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  990  fgrep "0000000116
-12703090
-0000000868" amazon_reviews_us_Books_v1_02.tsv
-  991  fgrep "0000000116
-12703090
-0000000868" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  992  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  993  egrep "12703090|12257412|53096573" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  994  egrep "0000000116|0000000868|0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8
-  995  fgrep "12703090
-12257412
-53096573
-0000000116
-0000000868
-0000020214" amazon_reviews_us_Books_v1_02.tsv|cut -f 8|awk '{sum+=$1} END {print "Average = ", sum/NR}'
-  996  ls
-  997  script ws4.txt
-  998  cat ws4.txt
-  999  history > cmds.lo
- 1000  ls
- 1001  rm cmds.lo 
- 1002  history > cmds.log
+  806  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|uniq -c|sort -n|awk '{ if ($1 >= 3) {print} }'|tail -n 30
+  807  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|uniq -c|sort -n|awk '{ if ($1 >= 3) {print} }'|head  -n 30
+  808  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|uniq -c|sort -n|awk '{ if ($1 >= 3) {print} }' > replies_data.csv
+  809  ls
+  810  cat replies_data.csv
+  811  cat replies_data.csv| wc -l
+  812  pwd
+  813  display ImageMagick
+  814  display gnuplot-5.4.5/src/ws5.svg
+  815  sudo yum install xorg-x11-xauth
+  816  sudo yum install imagemagick
+  817  gnuplot
+  818  gnuplot
+  819  gnuplot
+  820  /Users/guomandu/Downloads/gnuplot-5.4.5/src/gnuplot
+  821  /Users/guomandu/Downloads/gnuplot-5.4.5
+  822  gnuplot
+  823  export DISPLAY=:0.0
+  824  gnuplot
+  825  /Users/guomandu/Downloads/gnuplot-5.4.5/src
+  826  cd /Users/guomandu/Downloads/gnuplot-5.4.5/src
+  827  cd ~/A3/
+  828  cat replies_data.csv
+  829  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'
+  830  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|uniq -c|sort -n|awk '{ if ($1 >= 3) {print} }'
+  831  diff assignment22.txt assignment33.txt 
+  832  cd ~/A3/
+  833  cat downloaded_tweets_extend_nolf2.tsv||tr "[:upper:]" "[:lower:]"|cut -f 4|sed '/^[[:blank:]]*$/d'| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  834  cat  downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|awk '{print $1}'|sed '/^[[:blank:]]*$/d'| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  835  cat  downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|awk '{print $4}'|sed '/^[[:blank:]]*$/d'| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  836  head -1 downloaded_tweets_extend_nolf2.tsv
+  837  cat  downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|awk '{print $5}'|sed '/^[[:blank:]]*$/d'| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  838  cat  downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|awk '{print $5}'|sed '/^[[:blank:]]*$/d'
+  839  cat  downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|awk '{print $5}'|awk -F'\t' '$4!=""'| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  840  cat  downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|awk '{print $4}'|awk -F'\t' '$4!=""'| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  841  cat  downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|awk '{print $4}'
+  842  head -4 downloaded_tweets_extend_nolf2.tsv
+  843  ~/A2/
+  844  cd ~/A2/
+  845  ls
+  846   head -2  downloaded_tweets_extend_nolf2_NOBOT.tsv
+  847  cat downloaded_tweets_extend_nolf2_NOBOT.tsv| cut -f 3|head -2
+  848  ~/A3/
+  849  cd ~/A3/
+  850  ls
+  851  cat assignment33.txt
+  852  pwd
+  853  cd ~/A3/
+  854  ls
+  855  cat  replies_data.csv|cut -f 1
+  856   cat replies_data.csv|cut -f 1
+  857  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|uniq -c|sort -n|awk '{ if ($1 >= 3) {print} }' |cut -f 1
+  858  rm replies_data.csv
+  859  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|uniq -c|sort -n|awk '{ if ($1 >= 3) {print} }' > replies_data.tsv
+  860  cat replies_data.tsv
+  861  cat replies_data.tsv|cut -f 1
+  862  cat replies_data.tsv|awk '{print $1}'
+  863  cat replies_data.tsv|awk '{print $1}' |uniq -c
+  864  cat replies_data.tsv|awk '{print $1}' |sort|uniq -c
+  865  cat replies_data.tsv|awk '{print $1}' |uniq -c|awk ' { t = $1; $1 = $2; $2 = t; print; } '
+  866  ls
+  867  cat downloaded_tweets_extend_nolf2.tsv |cut -f 3
+  868  cat downloaded_tweets_extend_nolf2.tsv |cut -f 4
+  869  cat downloaded_tweets_extend_nolf2.tsv ||tr "[:upper:]" "[:lower:]"|cut -f 4|sed '/^[[:blank:]]*$/d'| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  870  cat downloaded_tweets_extend_nolf2.tsv |cut -f 4|tail -5
+  871  cat downloaded_tweets_extend_nolf2.tsv |cut -f 4|head -5
+  872  cat downloaded_tweets_extend_nolf2.tsv |awk -F'\t' '$4!=""'|cut -f 4
+  873  cat downloaded_tweets_extend_nolf2.tsv |awk -F'\t' '$4!=""'|cut -f 4|tr "[:upper:]" "[:lower:]"
+  874  cat downloaded_tweets_extend_nolf2.tsv |awk -F'\t' '$4!=""'|cut -f 4|tr "[:upper:]" "[:lower:]"'| sed 's/"//g'|tr ',' '\n'
+  875  |
+  876  cat downloaded_tweets_extend_nolf2.tsv |awk -F'\t' '$4!=""'|cut -f 4|tr "[:upper:]" "[:lower:]"
+  877  cat downloaded_tweets_extend_nolf2.tsv |awk -F'\t' '$4!=""'|cut -f 4|tr "[:upper:]" "[:lower:]"| sed 's/"//g'
+  878  cat downloaded_tweets_extend_nolf2.tsv |awk -F'\t' '$4!=""'|cut -f 4|tr "[:upper:]" "[:lower:]"| sed 's/"//g'|tr ',' '\n'
+  879  cat downloaded_tweets_extend_nolf2.tsv |awk -F'\t' '$4!=""'|cut -f 4|tr "[:upper:]" "[:lower:]"| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  880  cat downloaded_tweets_extend_nolf2.tsv |awk -F'\t' '$4!=""'|cut -f 4|tr "[:upper:]" "[:lower:]"| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30 > assignment2.txt
+  881  cat assignment2.txt
+  882  head -5 downloaded_tweets_extend_nolf2.tsv
+  883  cat downloaded_tweets_extend_nolf2.tsv |grep replied_to|cut -f 6
+  884  cat downloaded_tweets_extend_nolf2.tsv |grep replied_to|cut -f 6|head -3
+  885  grep 308045021 downloaded_tweets_extend_nolf2.tsv
+  886  cat downloaded_tweets_extend_nolf2.tsv |cut -f 6|head -3
+  887  cat downloaded_tweets_extend_nolf2.tsv |cut -f 6|head -30
+  888  cat downloaded_tweets_extend_nolf2.tsv|head -10
+  889  cat downloaded_tweets_extend_nolf2.tsv|grep replied_to|cut -f 4|head -10
+  890  cat downloaded_tweets_extend_nolf2.tsv|grep replied_to|cut -f 4|tr "[:upper:]" "[:lower:]"|head -10
+  891  cat downloaded_tweets_extend_nolf2.tsv|grep replied_to|cut -f 4|tr "[:upper:]" "[:lower:]"| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|head -10
+  892  | cat downloaded_tweets_extend_nolf2.tsv|grep replied_to|cut -f 4|tr "[:upper:]" "[:lower:]"| sed 's/"//g'|tr ',' '\n'|head -10
+  893  cat downloaded_tweets_extend_nolf2.tsv|grep replied_to|cut -f 4|tr "[:upper:]" "[:lower:]"|head -10
+  894  cat downloaded_tweets_extend_nolf2.tsv|grep replied_to|cut -f 4|tr "[:upper:]" "[:lower:]"|sed 's/"//g'|tr ',' '\n'|head -10
+  895  cat downloaded_tweets_extend_nolf2.tsv|grep replied_to|cut -f 4|tr "[:upper:]" "[:lower:]"|sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  896  ls
+  897  cat assignment2.txt
+  898  cat downloaded_tweets_extend_nolf2.tsv|grep replied_to|cut -f 4|tr "[:upper:]" "[:lower:]"|sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30 > assignment3.txt
+  899  ls
+  900  cat assignment3.txt
+  901  diff <(cut -f 2 assignment3.txt)<(cut -f 2 assignment2.txt)
+  902  diff -y<(awk '{print $2}' assignment3.txt)<(awk '{print $2}' assignment2.txt) 
+  903  diff --help
+  904  ls
+  905  cat assignment2.txt|cut -f 2
+  906  cat assignment2.txt|awk '{print $2}'
+  907  cat assignment2.txt|awk '{print $2}' >assignment22.txt
+  908  cat assignment22.txt
+  909  cat assignment3.txt|awk '{print $2}' >assignment33.txt
+  910  cat assignment33.txt
+  911  ls
+  912  diff assignment22.txt assignment33.txt 
+  913  cat assignment22.txt
+  914  cat  downloaded_tweets_extend_nolf2.tsv|tr "[:upper:]" "[:lower:]"|awk '{print $4}'|awk -F'\t' '$4!=""'| sed 's/"//g'|tr ',' '\n'|sort|uniq -c|sort -n|tail -n 30
+  915  ls
+  916  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|tail -30
+  917  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|head  -30
+  918  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'|tail -30
+  919  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1}'|uniq -c|sort -n|awk '{ if ($1 >= 3) {print} }'|tail -n 30
+  920  cat downloaded_tweets_extend_original_nolf2.tsv|grep replied_to|awk -F'\t' '$6!=""'|cut -f 6,2|awk ' { t = $1; $1 = $2; $2 = t; print; } '|sort|awk '$1!=$2{print $1,$2}'
+  921  tmux attach -t homework
+  922  ca ~/A1/
+  923  cd ~/A3/
+  924  ls
+  925  cd ~/A3/
+  926  ls
+  927  cat a3.txt 
+  928  vi a3.txt 
+  929  cat a3.txt 
+  930  git init
+  931  git add a3.txt
+  932  git commit -m "first commit"
+  933  git branch -M main
+  934  git remote add origin https://github.com/GGGGMMMM/a3.git
+  935  git push -u origin main
+  936  ls
+  937  git add gnuplot.png
+  938  git commit -m "second"
+  939  git branch -M main
+  940  git remote add origin https://github.com/GGGGMMMM/a3.git
+  941  git push -u origin main
+  942  ls
+  943  head -3 amazon_reviews_us_Books_v1_02.tsv 
+  944  cd CUSTOMERS
+  945  ls
+  946  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2|sort|uniq -c|sort -n|tail -n 3
+  947  cd ~
+  948  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2|sort|uniq -c|sort -n|tail -n 3
+  949  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2|sort|uniq -c|sort -n|wc -l
+  950  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2,13|sort|uniq -c|sort -n|head -1
+  951  grep 12065385 amazon_reviews_us_Books_v1_02.tsv
+  952  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2,14|sort|uniq -c|sort -n|head -1
+  953  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2,14|sort|uniq -c|sort -n|tail  -1000 > test.txt
+  954  cat test.txt|tail -1
+  955  cat test.txt
+  956  cat amazon_reviews_us_Books_v1_02.tsv|cut -f 2|sort|uniq -c|sort -n|tail  -1000 > test.txt
+  957  ls
+  958  cat test.txt
+  959  ls
+  960  cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|uniq -c|sort -nr -k
+  961  cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|uniq -c|sort -nr -k1
+  962  cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|uniq -c|sort -r|head -10
+  963  head -3 amazon_reviews_us_Books_v1_02.tsv
+  964  cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|sort|uniq -c|sort -r|head -10
+  965  cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|sort|uniq -c|sort -nr|head -10
+  966  ls
+  967  cd CUSTOMERS
+  968  touch custid.txt
+  969  ls
+  970  cd ~
+  971  cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|sort|uniq -c|sort -nr|cut -f 2|head -10
+  972  cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|sort|uniq -c|sort -nr|awk '{print $2}'|head -10
+  973  cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|sort|uniq -c|sort -nr|awk '{print $2}'|awk -f|head -10
+  974  cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|sort|uniq -c|sort -nr|awk '{print $2}'|awk '{print NR,$0}'|head -10
+  975  head -1 amazon_reviews_us_Books_v1_02.tsv
+  976  for i in{ 1..1000};
+  977  for i in { 1..1000}; do  cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|sort|uniq -c|sort -nr|awk'{print $2}' > customerID.txt
+  978  awk 'FNR==NR{a[$1]=$2;next} ($1 in a){print $14,a[$1]}' customerID.txt amazon_reviews_us_Books_v1_02.tsv|tail -1
+  979  ls
+  980  awk 'FNR==NR{a[$1]=$2;next} ($1 in a){print $14,a[$1]}' CUSTOMERS/customerID.txt amazon_reviews_us_Books_v1_02.tsv|tail -1
+  981  awk 'FNR==NR{a[$1]=$2;next} ($1 in a){print $1,a[$1]}' CUSTOMERS/customerID.txt amazon_reviews_us_Books_v1_02.tsv|tail -1
+  982  awk 'FNR==NR{a[$2]=$2;next} ($1 in a){print $1,a[$1]}' CUSTOMERS/customerID.txt amazon_reviews_us_Books_v1_02.tsv|tail -1
+  983  awk 'FNR==NR{a[$2]=$2;a[$2]=$1;next} ($1 in a){print $1,a[$1]}' CUSTOMERS/customerID.txt amazon_reviews_us_Books_v1_02.tsv|tail -1
+  984  awk 'FNR==NR{a[$2]=$2;a[$2]=$1;next} ($2 in a){print $2,a[$2]}' CUSTOMERS/customerID.txt amazon_reviews_us_Books_v1_02.tsv|tail -1
+  985  cat CUSTOMERS/customerID.txt|awk'{print $2}'
+  986  cat CUSTOMERS/customerID.txt|cut -f 2
+  987  cat CUSTOMERS/customerID.txt
+  988  ls
+  989  cat ws5.txt
+  990  rm ws5.txt
+  991  script ws5.txt
+  992  for i in $(cat test1.txt);  do echo $i; done > t.txt
+  993  cat t.txt
+  994  for i in $(cat CUSTOMERS/customerID.txt);   do  grep $i amazon_reviews_us_Books_v1_02.tsv|cut -f 14;  done  
+  995  for i in $(cat CUSTOMERS/customerID.txt);   do  grep $i amazon_reviews_us_Books_v1_02.tsv|cut -f 14;  done  > CUSTOMERS/custid.txt
+  996  cat CUSTOMERS/custid.txt|wc -l
+  997  vi ws5.txt
+  998  cat ws5.tx
+  999  cat ws5.txt
+ 1000  git init
+ 1001  git add ws5.txt
+ 1002  git commit -m "first commit"
+ 1003  git branch -M main
+ 1004  git remote add origin https://github.com/GGGGMMMM/ws5.git
+ 1005  git remove remote origin
+ 1006  git remote remove origin
+ 1007  git branch -M main
+ 1008  git remote add origin https://github.com/GGGGMMMM/ws5.git
+ 1009  git push -u origin main
+ 1010  history> cmds.log
