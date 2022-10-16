@@ -1,0 +1,47 @@
+Script started on 2022-10-16 00:18:50-04:00
+1)
+[guoman@sjsu ~]$ echo Current date and time is `date
+Current date and time is Sun Oct 16 00:19:13 EDT 2022
+2)
+[guoman@sjsu ~]$ cp PRODUCTS/productID.txt  PRODUCTS/productID.DATETIME.txt
+3)
+[guoman@sjsu ~]$ cat PRODUCTS/productID.DATETIME.txt
+4
+4
+5
+[guoman@sjsu ~]$ sed -i -e '$a3' PRODUCTS/productID.DATETIME.txt
+[guoman@sjsu ~]$ cat PRODUCTS/productID.DATETIME.txt
+4
+4
+5
+3
+
+4)
+[guoman@sjsu ~]$ ln -s PRODUCTS/productID.DATETIME.txt PRODUCTS/productID.LATEST.txt
+[guoman@sjsu ~]$ cd PRODUCTS
+[guoman@sjsu PRODUCTS]$ ls
+productID.DATETIME.txt  productID.LATEST.txt  productID.txt
+
+
+
+5)
+[guoman@sjsu PRODUCTS]$ crontab -e
+[guoman@sjsu ~]$ crontab -l
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
+# │ │ │ │ │                                       7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * *  command_to_execute
+
+* * * * * ln -nsf PRODUCTS/productID.DATETIME.txt PRODUCTS/productID.LATEST.txt
+* * * * * cat PRODUCTS/productID.DATETIME.txt|awk '{sum+=$1} END {print "Average = ", sum/NR}' >PRODUCTS/productID.AVGRATING.txt
+
+[guoman@sjsu ~]$  cat productID.AVGRATING.txt
+Average =  4
+[guoman@sjsu ~]$ exit
+
+Script done on 2022-10-16 00:23:50-04:00
