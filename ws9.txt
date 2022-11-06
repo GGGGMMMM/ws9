@@ -1,0 +1,41 @@
+Script started on 2022-11-06 17:29:23-05:00
+[guoman@sjsu ~]$ head -200 amazon_reviews_us_Books_v1_02.tsv >fileinput.txt
+[guoman@sjsu ~]$ cat randomsample.s
+#!/bin/bash
+echo First input:$1
+if [ $1 -gt 100 -o $1 -lt 0 ];
+then
+	exit
+fi
+echo Second input:$2
+if [ $# -ne 2 ];
+then
+	exit
+fi
+
+range=$(wc -l $2|awk '{print $1}')
+echo range is $range
+
+
+val=`expr $range \* $1`
+echo val is $val
+lim=`expr $val / 100`
+echo lim is $lim
+i=1
+while [ $i -le $lim ];do
+
+read p 
+  echo "$p"
+i=`expr $i + 1`
+done < $2
+[guoman@sjsu ~]$ echo $(($RANDOM % 100))
+77
+[guoman@sjsu ~]$ ./randomsample.sh 77
+First input:77
+Second input:
+[guoman@sjsu ~]$ ./randomsample.sh 200
+First input:200
+[guoman@sjsu ~]$ ./randomsample.sh 77 fileinput.txt|wc -l
+159
+[guoman@sjsu ~]$ exit
+Script done on 2022-11-06 17:32:50-05:00
