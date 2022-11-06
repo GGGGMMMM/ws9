@@ -1,2 +1,0 @@
-5028993 amazon_reviews_us_Books_v1_02.tsv.gz.1
-27982319 amazon_reviews_us_Books_v1_02.tsv.gz.1
