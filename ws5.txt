@@ -1,11 +1,0 @@
-Script started on 2022-10-13 01:35:54-04:00
-]0;guoman@sjsu:~[guoman@sjsu ~]$ cat amazon_reviews_us_Books_v1_02.tsv |cut -f 2|sort|uniq -c|sorrt -nr|awk '{print $2}'>CUSTOMERS/customerID.txt
-]0;guoman@sjsu:~[guoman@sjsu ~]$ for i in $(cat CUSTOMERS/customerID.txt);  
-> do 
-> grep $i amazon_reviews_us_Books_v1_02.tsv|cut -f 14; 
-> done  > CUSTOMERS/custid.txt
-
-[guoman@sjsu ~]$
-]0;guoman@sjsu:~[guoman@sjsu ~]$ exit
-
-Script done on 2022-10-13 02:27:13-04:00
