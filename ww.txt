@@ -1,15 +1,0 @@
-Script started on 2022-09-16 16:53:41-04:00
-]0;guoman@sjsu:~[guoman@sjsu ~]$ cat amazon_reviews_us_Books_v1_02.tsv|cut -f 4|sort|uniq -c|sortt|tail -n 3
-
-      9 B00015PPJU
-      9 B0002ST9DY
-      9 B0006BD94W
-]0;guoman@sjsu:~[guoman@sjsu ~]$ 
-]0;guoman@sjsu:~[guoman@sjsu ~]$ cat  ww.txt
-]0;guoman@sjsu:~[guoman@sjsu ~]$ 
-]0;guoman@sjsu:~[guoman@sjsu ~]$ 
-]0;guoman@sjsu:~[guoman@sjsu ~]$ cat  ww.txt
-]0;guoman@sjsu:~[guoman@sjsu ~]$ 
-]0;guoman@sjsu:~[guoman@sjsu ~]$ exit
-
-Script done on 2022-09-16 17:05:47-04:00
